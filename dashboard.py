@@ -49,6 +49,19 @@ st.markdown("""
 # DATA FETCHING
 # ─────────────────────────────────────────────
 def load_env():
+    """Load secrets from .env (local) or environment (cloud)"""
+    # First check Streamlit secrets
+    try:
+        if st.secrets.get('APCA_API_KEY_ID'):
+            os.environ['APCA_API_KEY_ID'] = st.secrets['APCA_API_KEY_ID']
+        if st.secrets.get('APCA_API_SECRET_KEY'):
+            os.environ['APCA_API_SECRET_KEY'] = st.secrets['APCA_API_SECRET_KEY']
+        if st.secrets.get('APCA_PAPER'):
+            os.environ['APCA_PAPER'] = st.secrets['APCA_PAPER']
+    except:
+        pass
+    
+    # Override with .env file if it exists (local dev)
     env_file = Path(__file__).parent / '.env'
     if env_file.exists():
         with open(env_file) as f:
