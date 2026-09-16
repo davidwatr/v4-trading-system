@@ -31,7 +31,6 @@ jobs:
         APCA_API_SECRET_KEY: ${{ secrets.APCA_API_SECRET_KEY }}
         APCA_PAPER: ${{ secrets.APCA_PAPER }}
       run: |
-        cd trading
         python v4_executor.py
         
     - name: Upload results as artifact
@@ -40,6 +39,6 @@ jobs:
       with:
         name: trading-results
         path: |
-          trading/*.log
-          trading/*.json
+          *.log
+          *.json
         retention-days: 30
