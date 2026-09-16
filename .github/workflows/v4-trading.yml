@@ -2,9 +2,9 @@ name: V4 Trading System - Daily Execution
 
 on:
   schedule:
-    # 17:30 Israel time = 14:30 UTC (market hours check)
-    - cron: '30 14 * * 1-5'
-  # Also allow manual runs from GitHub UI
+    # 00:00 Israel time = 21:00 UTC (weekdays only)
+    # US market closes at 22:00 Israel time, data finalized by midnight
+    - cron: '0 21 * * 1-5'
   workflow_dispatch:
 
 jobs:
