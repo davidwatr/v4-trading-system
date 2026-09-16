@@ -1,0 +1,45 @@
+name: V4 Trading System - Daily Execution
+
+on:
+  schedule:
+    # 17:30 Israel time = 14:30 UTC (market hours check)
+    - cron: '30 14 * * 1-5'
+  # Also allow manual runs from GitHub UI
+  workflow_dispatch:
+
+jobs:
+  run-v4-executor:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install numpy pandas requests alpaca-py
+        
+    - name: Run V4 Executor
+      env:
+        APCA_API_KEY_ID: ${{ secrets.APCA_API_KEY_ID }}
+        APCA_API_SECRET_KEY: ${{ secrets.APCA_API_SECRET_KEY }}
+        APCA_PAPER: ${{ secrets.APCA_PAPER }}
+      run: |
+        cd trading
+        python v4_executor.py
+        
+    - name: Upload results as artifact
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: trading-results
+        path: |
+          trading/*.log
+          trading/*.json
+        retention-days: 30
