@@ -352,61 +352,53 @@ class PortfolioTransition:
 
     def _close_stale_positions(self, positions):
         """Close positions held longer than MAX_HOLD_DAYS."""
-        import time
-        from datetime import datetime, timedelta
         now = datetime.now()
         closed = []
         if not positions:
             return closed
         for pos in positions:
             symbol = pos.symbol
-            # Use entry_date if available, otherwise estimate from position tracking
-            entry_date = getattr(pos, 'entry_date', None)
+            # Prefer explicit entry_date; alpaca-py positions expose opened_at
+            entry_date = getattr(pos, 'entry_date', None) or getattr(pos, 'opened_at', None)
             if entry_date:
                 hold_days = (now - entry_date).days
             else:
                 # Fallback: assume positions held since V4 system start (2026-09-16)
-                # This will trigger closure of positions held beyond MAX_HOLD_DAYS
                 entry_date = datetime(2026, 9, 16)
                 hold_days = (now - entry_date).days
             if hold_days >= self.max_hold_days:
-                            ok, result = self.helper.close_position(symbol)
-                            if ok:
-                                closed.append(symbol)
-                                logger.info(f"CLOSED STALE position: {symbol} (held {hold_days} days >= {self.max_hold_days} days)")
-                                # Log to position tracking file
-                                self._log_position_close(symbol, hold_days)
-                            else:
-                                logger.warning(f"FAILED to close stale {symbol}: {result}")
-                    return closed
+                ok, result = self.helper.close_position(symbol)
+                if ok:
+                    closed.append(symbol)
+                    logger.info(f"CLOSED STALE position: {symbol} (held {hold_days} days >= {self.max_hold_days} days)")
+                    self._log_position_close(symbol, hold_days)
+                else:
+                    logger.warning(f"FAILED to close stale {symbol}: {result}")
+        return closed
 
-                def _log_position_close(self, symbol: str, hold_days: int):
-                    """Log closed position to tracking file."""
-                    try:
-                        log_entry = {
-                            "symbol": symbol,
-                            "hold_days": hold_days,
-                            "closed_at": datetime.now().isoformat(),
-                            "action": "stale_close"
-                        }
-                        # Read existing log
-                        if self.position_log_file.exists():
-                            with open(self.position_log_file, 'r') as f:
-                                try:
-                                    existing = json.load(f)
-                                except json.JSONDecodeError:
-                                    existing = []
-                        else:
-                            existing = []
-                        # Append new entry
-                        existing.append(log_entry)
-                        # Keep last 50 entries to avoid file bloat
-                        existing = existing[-50:]
-                        # Write back
-                        with open(self.position_log_file, 'w') as f:
-                            json.dump(existing, f, indent=2)
-                    except Exception as e:
-                        logger.warning(f"Failed to log position close: {e}")
+    def _log_position_close(self, symbol: str, hold_days: int):
+        """Log closed position to tracking file."""
+        try:
+            log_entry = {
+                "symbol": symbol,
+                "hold_days": hold_days,
+                "closed_at": datetime.now().isoformat(),
+                "action": "stale_close"
+            }
+            if self.position_log_file.exists():
+                try:
+                    with open(self.position_log_file, 'r') as f:
+                        existing = json.load(f)
+                except json.JSONDecodeError:
+                    existing = []
+            else:
+                existing = []
+            existing.append(log_entry)
+            existing = existing[-50:]
+            with open(self.position_log_file, 'w') as f:
+                json.dump(existing, f, indent=2)
+        except Exception as e:
+            logger.warning(f"Failed to log position close: {e}")
 
     def cancel_all_and_close_unwanted(self, wanted_symbols):
         cancelled = self.helper.cancel_all_orders()
