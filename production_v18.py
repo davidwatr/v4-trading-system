@@ -255,7 +255,7 @@ def fetch_data(symbol, days=730):
         volumes = [v for v in result["indicators"]["quote"][0]["volume"] if v is not None]
         highs = [h for h in result["indicators"]["quote"][0]["high"] if h is not None]
         lows = [l for l in result["indicators"]["quote"][0]["low"] if l is not None]
-        if len(closes) < 100: return None, None, None, None
+        if len(closes) < 40: return None, None, None, None
         return closes, volumes, highs, lows
     except: return None, None, None, None
 

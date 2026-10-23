@@ -147,7 +147,7 @@ class MarketData:
         if symbol in self.cache:
             return self.cache[symbol]
         d = fetch_data(symbol, days=days)
-        if d is not None and len(d[0]) > 50:
+        if d is not None and d[0] is not None and len(d[0]) > 40:
             self.cache[symbol] = d
             return d
         return None
@@ -219,7 +219,7 @@ class V4Strategy:
         if data is None or len(data[0]) < period + 1:
             return None
         highs = np.array(data[2])
-        lows = np.array(data[1])
+        lows = np.array(data[3])
         closes = np.array(data[0])
         trs = [max(highs[i]-lows[i], abs(highs[i]-closes[i-1]), abs(lows[i]-closes[i-1])) for i in range(1, len(closes))]
         return float(np.mean(trs[-period:]))
@@ -347,6 +347,66 @@ class PortfolioTransition:
         self.helper = helper
         self.strategy = strategy
         self.risk = risk
+        self.max_hold_days = cfg.MAX_HOLD_DAYS  # Max days to hold a position
+        self.position_log_file = Path("v4_position_tracking.json")
+
+    def _close_stale_positions(self, positions):
+        """Close positions held longer than MAX_HOLD_DAYS."""
+        import time
+        from datetime import datetime, timedelta
+        now = datetime.now()
+        closed = []
+        if not positions:
+            return closed
+        for pos in positions:
+            symbol = pos.symbol
+            # Use entry_date if available, otherwise estimate from position tracking
+            entry_date = getattr(pos, 'entry_date', None)
+            if entry_date:
+                hold_days = (now - entry_date).days
+            else:
+                # Fallback: assume positions held since V4 system start (2026-09-16)
+                # This will trigger closure of positions held beyond MAX_HOLD_DAYS
+                entry_date = datetime(2026, 9, 16)
+                hold_days = (now - entry_date).days
+            if hold_days >= self.max_hold_days:
+                            ok, result = self.helper.close_position(symbol)
+                            if ok:
+                                closed.append(symbol)
+                                logger.info(f"CLOSED STALE position: {symbol} (held {hold_days} days >= {self.max_hold_days} days)")
+                                # Log to position tracking file
+                                self._log_position_close(symbol, hold_days)
+                            else:
+                                logger.warning(f"FAILED to close stale {symbol}: {result}")
+                    return closed
+
+                def _log_position_close(self, symbol: str, hold_days: int):
+                    """Log closed position to tracking file."""
+                    try:
+                        log_entry = {
+                            "symbol": symbol,
+                            "hold_days": hold_days,
+                            "closed_at": datetime.now().isoformat(),
+                            "action": "stale_close"
+                        }
+                        # Read existing log
+                        if self.position_log_file.exists():
+                            with open(self.position_log_file, 'r') as f:
+                                try:
+                                    existing = json.load(f)
+                                except json.JSONDecodeError:
+                                    existing = []
+                        else:
+                            existing = []
+                        # Append new entry
+                        existing.append(log_entry)
+                        # Keep last 50 entries to avoid file bloat
+                        existing = existing[-50:]
+                        # Write back
+                        with open(self.position_log_file, 'w') as f:
+                            json.dump(existing, f, indent=2)
+                    except Exception as e:
+                        logger.warning(f"Failed to log position close: {e}")
 
     def cancel_all_and_close_unwanted(self, wanted_symbols):
         cancelled = self.helper.cancel_all_orders()
@@ -399,7 +459,11 @@ class PortfolioTransition:
         to_close = set(held_symbols) - wanted_symbols
         if to_close:
             self.cancel_all_and_close_unwanted(wanted_symbols)
-            time.sleep(2)
+        # Close stale positions (held too long) - CRITICAL: fix position staleness
+        stale_closed = self._close_stale_positions(positions)
+        if stale_closed:
+            logger.info(f"Closed {len(stale_closed)} stale positions held >{cfg.MAX_HOLD_DAYS} days")
+        time.sleep(2)
 
         # Recalculate after closing
         positions = self.helper.get_positions()
