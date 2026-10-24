@@ -142,6 +142,14 @@ class AlpacaHelper:
         except Exception:
             return None
 
+    def get_open_orders(self):
+        try:
+            return self.client.get_orders(
+                filter=GetOrdersRequest(status=QueryOrderStatus.OPEN)
+            )
+        except Exception:
+            return []
+
 
 # ─────────────────────────────────────────────
 # MARKET DATA (tuple-based)
@@ -556,7 +564,17 @@ class PortfolioTransition:
         # Recalculate after closing
         positions = self.helper.get_positions()
         held_symbols = [p.symbol for p in positions]
-        remaining_positions = len(positions)
+        # Symbols with open BUY orders count as held — server-side state survives
+        # ephemeral GH Actions runners (local tracking file does not).
+        open_orders = self.helper.get_open_orders()
+        pending_buy_symbols = {
+            o.symbol for o in open_orders
+            if str(getattr(o, 'side', '')).upper() == 'BUY'
+        }
+        if pending_buy_symbols:
+            logger.info(f"Pending open buy orders (counting as held): {sorted(pending_buy_symbols)}")
+        held_symbols = sorted(set(held_symbols) | pending_buy_symbols)
+        remaining_positions = len(held_symbols)
 
         # Execute new signals (submit + verify fill; track pending orders)
         submitted = []
