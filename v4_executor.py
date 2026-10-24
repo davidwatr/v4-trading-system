@@ -134,6 +134,14 @@ class AlpacaHelper:
         except Exception as e:
             return False, str(e)
 
+    def get_order_by_id(self, order_id):
+        if not order_id:
+            return None
+        try:
+            return self.client.get_order_by_id(order_id)
+        except Exception:
+            return None
+
 
 # ─────────────────────────────────────────────
 # MARKET DATA (tuple-based)
@@ -376,27 +384,115 @@ class PortfolioTransition:
                     logger.warning(f"FAILED to close stale {symbol}: {result}")
         return closed
 
+    def _load_tracking(self):
+        """Load tracking file; supports the legacy list format."""
+        if not self.position_log_file.exists():
+            return {"pending": [], "history": [], "closed": []}
+        try:
+            with open(self.position_log_file, 'r') as f:
+                data = json.load(f)
+        except (json.JSONDecodeError, OSError):
+            return {"pending": [], "history": [], "closed": []}
+        if isinstance(data, list):  # legacy: closed-position log only
+            return {"pending": [], "history": [], "closed": data}
+        data.setdefault("pending", [])
+        data.setdefault("history", [])
+        data.setdefault("closed", [])
+        return data
+
+    def _save_tracking(self, data):
+        try:
+            with open(self.position_log_file, 'w') as f:
+                json.dump(data, f, indent=2)
+        except Exception as e:
+            logger.warning(f"Failed to save tracking file: {e}")
+
+    def _track_submitted_order(self, symbol, qty, order_id):
+        """Record a submitted order as pending until its fill is confirmed."""
+        data = self._load_tracking()
+        data["pending"].append({
+            "symbol": symbol,
+            "qty": float(qty),
+            "order_id": str(order_id) if order_id else None,
+            "side": "buy",
+            "submitted_at": datetime.now().isoformat(),
+            "status": "accepted",
+        })
+        data["pending"] = data["pending"][-100:]
+        self._save_tracking(data)
+
+    def _move_pending(self, order_id, status, extra=None):
+        """Move a pending order to history with a terminal status."""
+        data = self._load_tracking()
+        for o in data["pending"]:
+            if o.get("order_id") == str(order_id):
+                o["status"] = status
+                o["ended_at"] = datetime.now().isoformat()
+                if extra:
+                    o.update(extra)
+                data["history"].append(o)
+                data["pending"] = [x for x in data["pending"] if x.get("order_id") != str(order_id)]
+                break
+        data["history"] = data["history"][-200:]
+        self._save_tracking(data)
+
+    def _await_fill(self, order_id, symbol, qty, timeout=25):
+        """Poll briefly for a fill; in-session market fills are near-instant."""
+        if not order_id:
+            logger.info(f"  no order id returned for {symbol} — fill unverified")
+            return False
+        deadline = time.time() + timeout
+        while time.time() < deadline:
+            order = self.helper.get_order_by_id(order_id)
+            status = getattr(order, 'status', None) if order else None
+            if status == 'filled':
+                logger.info(f"  CONFIRMED FILL: {symbol} qty={qty}")
+                self._move_pending(order_id, "filled")
+                return True
+            if status in ('rejected', 'expired', 'canceled'):
+                logger.warning(f"  ORDER {status.upper()}: {symbol} qty={qty}")
+                self._move_pending(order_id, status)
+                return False
+            time.sleep(3)
+        logger.info(f"  PENDING (unfilled yet): {symbol} qty={qty} id={order_id}")
+        return False
+
+    def reconcile_pending_orders(self):
+        """Check orders left pending by previous runs; update their status."""
+        data = self._load_tracking()
+        if not data["pending"]:
+            return
+        still_pending = []
+        for o in data["pending"]:
+            if not o.get("order_id"):
+                still_pending.append(o)
+                continue
+            order = self.helper.get_order_by_id(o["order_id"])
+            status = getattr(order, 'status', None) if order else None
+            if status == 'filled':
+                logger.info(f"PREVIOUS ORDER FILLED: {o['symbol']} qty={o['qty']}")
+                self._move_pending(o["order_id"], "filled")
+            elif status in ('rejected', 'expired', 'canceled'):
+                logger.info(f"PREVIOUS ORDER {status.upper()}: {o['symbol']} qty={o['qty']}")
+                self._move_pending(o["order_id"], status)
+            else:
+                still_pending.append(o)
+        data = self._load_tracking()
+        data["pending"] = still_pending
+        self._save_tracking(data)
+
     def _log_position_close(self, symbol: str, hold_days: int):
         """Log closed position to tracking file."""
         try:
-            log_entry = {
+            data = self._load_tracking()
+            data["closed"].append({
                 "symbol": symbol,
                 "hold_days": hold_days,
                 "closed_at": datetime.now().isoformat(),
                 "action": "stale_close"
-            }
-            if self.position_log_file.exists():
-                try:
-                    with open(self.position_log_file, 'r') as f:
-                        existing = json.load(f)
-                except json.JSONDecodeError:
-                    existing = []
-            else:
-                existing = []
-            existing.append(log_entry)
-            existing = existing[-50:]
-            with open(self.position_log_file, 'w') as f:
-                json.dump(existing, f, indent=2)
+            })
+            data["closed"] = data["closed"][-100:]
+            self._save_tracking(data)
         except Exception as e:
             logger.warning(f"Failed to log position close: {e}")
 
@@ -462,8 +558,8 @@ class PortfolioTransition:
         held_symbols = [p.symbol for p in positions]
         remaining_positions = len(positions)
 
-        # Execute new signals
-        executed = []
+        # Execute new signals (submit + verify fill; track pending orders)
+        submitted = []
         for signal in signals:
             if signal['symbol'] in held_symbols:
                 continue
@@ -484,15 +580,18 @@ class PortfolioTransition:
                 signal['symbol'], qty, OrderSide.BUY
             )
             if ok:
-                executed.append(signal['symbol'])
+                order_id = getattr(result, 'id', None)
+                self._track_submitted_order(signal['symbol'], qty, order_id)
+                submitted.append(signal['symbol'])
                 held_symbols.append(signal['symbol'])
                 remaining_positions += 1
-                logger.info(f"  EXECUTED BUY: {signal['symbol']} qty={qty} @ market")
+                logger.info(f"  ORDER SUBMITTED: {signal['symbol']} qty={qty} id={order_id}")
+                self._await_fill(order_id, signal['symbol'], qty)
             else:
                 logger.warning(f"  FAILED BUY: {signal['symbol']}: {result}")
 
-        logger.info(f"Executed {len(executed)} new positions: {executed}")
-        return executed
+        logger.info(f"Submitted {len(submitted)} buy orders: {submitted} — fills verified in-session; pending orders tracked in v4_position_tracking.json")
+        return submitted
 
 
 # ─────────────────────────────────────────────
@@ -512,6 +611,9 @@ def run_executor():
     risk = RiskManager(helper)
     transition = PortfolioTransition(helper, strategy, risk)
     regime_detector = RegimeDetector(data)
+
+    # Reconcile orders submitted by previous runs (fills/expiries overnight)
+    transition.reconcile_pending_orders()
 
     account = helper.get_account()
     pv = float(account.portfolio_value)
