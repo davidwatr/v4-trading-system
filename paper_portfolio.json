@@ -1,0 +1,57 @@
+{
+  "cash_ils": 0.2527600000000234,
+  "initial_cash_ils": 1300,
+  "positions": [
+    {
+      "symbol": "QCOM",
+      "shares": 0.71,
+      "entry_price": 168.74,
+      "stop": 153.11,
+      "target": 200.01,
+      "current_price": 168.74,
+      "cost_ils": 431.3,
+      "value_ils": 431.3,
+      "pnl_ils": 0,
+      "pnl_pct": 0,
+      "entry_date": "2026-09-07T18:11:48.124681",
+      "setup": "A",
+      "ml_probability": 0.6097,
+      "rsi": 61.3
+    },
+    {
+      "symbol": "EMR",
+      "shares": 0.79,
+      "entry_price": 152.82,
+      "stop": 143.42,
+      "target": 171.61,
+      "current_price": 152.82,
+      "cost_ils": 434.62,
+      "value_ils": 434.62,
+      "pnl_ils": 0,
+      "pnl_pct": 0,
+      "entry_date": "2026-09-07T18:11:48.124681",
+      "setup": "A",
+      "ml_probability": 0.5282,
+      "rsi": 35.6
+    },
+    {
+      "symbol": "EOG",
+      "shares": 0.83,
+      "entry_price": 145.19,
+      "stop": 133.86,
+      "target": 167.85,
+      "current_price": 145.19,
+      "cost_ils": 433.83,
+      "value_ils": 433.83,
+      "pnl_ils": 0,
+      "pnl_pct": 0,
+      "entry_date": "2026-09-07T18:11:48.124681",
+      "setup": "A",
+      "ml_probability": 0.499,
+      "rsi": 48.2
+    }
+  ],
+  "closed_trades": [],
+  "start_date": "2026-09-07T18:10:28.511155",
+  "last_update": "2026-09-07T18:12:48.173465"
+}

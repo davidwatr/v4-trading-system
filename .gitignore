@@ -11,4 +11,8 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
-.streamlit/
+
+# runtime state
+*.log
+*.png
+nul

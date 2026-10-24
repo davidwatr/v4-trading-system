@@ -1,0 +1,49 @@
+{
+  "last_updated": "2026-09-14 15:20",
+  "performance": {
+    "v3_ml": {
+      "total_predictions": 5,
+      "correct_direction": 4,
+      "avg_return_predicted_up": 2.9190674832882026e-08,
+      "avg_return_predicted_down": 0.0,
+      "top5_accuracy": 0,
+      "top5_avg_return": 0,
+      "accuracy": 0.8
+    },
+    "v4_xgb": {
+      "total_predictions": 5,
+      "correct_direction": 3,
+      "avg_return_predicted_up": 3.519044744776191e-08,
+      "avg_return_predicted_down": 0.0,
+      "top5_accuracy": 0,
+      "top5_avg_return": 0,
+      "accuracy": 0.6
+    },
+    "v5_proper": {
+      "total_predictions": 5,
+      "correct_direction": 4,
+      "avg_return_predicted_up": 4.716159773742526e-08,
+      "avg_return_predicted_down": 0.0,
+      "top5_accuracy": 0,
+      "top5_avg_return": 0,
+      "accuracy": 0.8
+    },
+    "v6_ridge": {
+      "total_predictions": 5,
+      "correct_direction": 2,
+      "avg_return_predicted_up": -1.1245265013073562e-08,
+      "avg_return_predicted_down": 0.0,
+      "top5_accuracy": 0,
+      "top5_avg_return": 0,
+      "accuracy": 0.4
+    },
+    "v18_heuristic": {
+      "total_predictions": 0,
+      "correct_direction": 0,
+      "avg_return_predicted_up": 0,
+      "avg_return_predicted_down": 0,
+      "top5_accuracy": 0,
+      "top5_avg_return": 0
+    }
+  }
+}
