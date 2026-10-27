@@ -1,0 +1,683 @@
+{
+  "all_results": [
+    {
+      "symbol": "PYPL",
+      "type": "STOCK",
+      "price": 52.665000915527344,
+      "score": 7,
+      "signals": [
+        "RSI_NEAR_OVERSOLD",
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "BB_OVERSOLD",
+        "AT_SUPPORT",
+        "ABOVE_MA200"
+      ],
+      "rsi": 31.18503288094746,
+      "sector": "XLF"
+    },
+    {
+      "symbol": "BRK-B",
+      "type": "STOCK",
+      "price": 504.0299987792969,
+      "score": 5,
+      "signals": [
+        "RSI_NEAR_OVERSOLD",
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "AT_SUPPORT",
+        "ABOVE_MA200"
+      ],
+      "rsi": 35.50126219289804,
+      "sector": "XLF"
+    },
+    {
+      "symbol": "AMZN",
+      "type": "STOCK",
+      "price": 259.7699890136719,
+      "score": 4,
+      "signals": [
+        "RSI_NEAR_OVERSOLD",
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "ABOVE_VWAP",
+        "AT_SUPPORT",
+        "ABOVE_MA200"
+      ],
+      "rsi": 38.095224255050525,
+      "sector": "XLY"
+    },
+    {
+      "symbol": "BAC",
+      "type": "STOCK",
+      "price": 61.939998626708984,
+      "score": 4,
+      "signals": [
+        "RSI_NEAR_OVERSOLD",
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "ABOVE_VWAP",
+        "AT_SUPPORT",
+        "ABOVE_MA200"
+      ],
+      "rsi": 38.478757417633176,
+      "sector": "XLF"
+    },
+    {
+      "symbol": "JPM",
+      "type": "STOCK",
+      "price": 356.0199890136719,
+      "score": 3,
+      "signals": [
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "ABOVE_VWAP",
+        "AT_SUPPORT",
+        "ABOVE_MA200"
+      ],
+      "rsi": 41.13660830947464,
+      "sector": "XLF"
+    },
+    {
+      "symbol": "TRX",
+      "type": "CRYPTO",
+      "price": 0.3328147530555725,
+      "score": 3,
+      "signals": [
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "ABOVE_VWAP",
+        "AT_SUPPORT",
+        "ABOVE_MA200"
+      ],
+      "rsi": 52.552448420481085,
+      "sector": "CRYPTO"
+    },
+    {
+      "symbol": "WFC",
+      "type": "STOCK",
+      "price": 86.38999938964844,
+      "score": 2,
+      "signals": [
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "ABOVE_MA200"
+      ],
+      "rsi": 45.561155832388714,
+      "sector": "XLF"
+    },
+    {
+      "symbol": "C",
+      "type": "STOCK",
+      "price": 131.6199951171875,
+      "score": 2,
+      "signals": [
+        "RSI_NEAR_OVERSOLD",
+        "MACD_BEARISH",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "AT_SUPPORT",
+        "ABOVE_MA200"
+      ],
+      "rsi": 39.35349413644595,
+      "sector": "XLF"
+    },
+    {
+      "symbol": "CSCO",
+      "type": "STOCK",
+      "price": 110.48999786376953,
+      "score": 2,
+      "signals": [
+        "RSI_NEAR_OVERSOLD",
+        "MACD_BEARISH",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "AT_SUPPORT",
+        "ABOVE_MA200"
+      ],
+      "rsi": 31.96661226062635,
+      "sector": "XLK"
+    },
+    {
+      "symbol": "DIS",
+      "type": "STOCK",
+      "price": 107.55000305175781,
+      "score": 2,
+      "signals": [
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "ABOVE_MA200"
+      ],
+      "rsi": 59.43663515569705,
+      "sector": "XLY"
+    },
+    {
+      "symbol": "LINK",
+      "type": "CRYPTO",
+      "price": 11.350000381469727,
+      "score": 2,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "BELOW_VWAP",
+        "ABOVE_MA200"
+      ],
+      "rsi": 69.4590032029378,
+      "sector": "CRYPTO"
+    },
+    {
+      "symbol": "MSFT",
+      "type": "STOCK",
+      "price": 507.2900085449219,
+      "score": 1,
+      "signals": [
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "ABOVE_VWAP",
+        "ABOVE_MA200"
+      ],
+      "rsi": 52.22791805040906,
+      "sector": "XLK"
+    },
+    {
+      "symbol": "GOOGL",
+      "type": "STOCK",
+      "price": 339.3500061035156,
+      "score": 1,
+      "signals": [
+        "MACD_BEARISH",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "AT_SUPPORT",
+        "ABOVE_MA200"
+      ],
+      "rsi": 44.173877883054836,
+      "sector": "XLK"
+    },
+    {
+      "symbol": "NVDA",
+      "type": "STOCK",
+      "price": 220.77999877929688,
+      "score": 1,
+      "signals": [
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "ABOVE_VWAP",
+        "ABOVE_MA200"
+      ],
+      "rsi": 52.54027176528313,
+      "sector": "XLK"
+    },
+    {
+      "symbol": "ORCL",
+      "type": "STOCK",
+      "price": 149.1199951171875,
+      "score": 1,
+      "signals": [
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "BELOW_VWAP"
+      ],
+      "rsi": 53.818713747984205,
+      "sector": "XLK"
+    },
+    {
+      "symbol": "BTC",
+      "type": "CRYPTO",
+      "price": 78751.5234375,
+      "score": 1,
+      "signals": [
+        "RSI_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "BELOW_VWAP",
+        "ABOVE_MA200"
+      ],
+      "rsi": 82.3663587512786,
+      "sector": "CRYPTO"
+    },
+    {
+      "symbol": "ETH",
+      "type": "CRYPTO",
+      "price": 2471.02001953125,
+      "score": 1,
+      "signals": [
+        "RSI_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "BELOW_VWAP",
+        "ABOVE_MA200"
+      ],
+      "rsi": 79.52933579022483,
+      "sector": "CRYPTO"
+    },
+    {
+      "symbol": "BNB",
+      "type": "CRYPTO",
+      "price": 691.2000122070312,
+      "score": 1,
+      "signals": [
+        "RSI_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "BELOW_VWAP",
+        "ABOVE_MA200"
+      ],
+      "rsi": 76.61835214950209,
+      "sector": "CRYPTO"
+    },
+    {
+      "symbol": "XRP",
+      "type": "CRYPTO",
+      "price": 1.381600022315979,
+      "score": 1,
+      "signals": [
+        "RSI_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "BELOW_VWAP",
+        "ABOVE_MA200"
+      ],
+      "rsi": 75.55217585536343,
+      "sector": "CRYPTO"
+    },
+    {
+      "symbol": "SOL",
+      "type": "CRYPTO",
+      "price": 103.27999877929688,
+      "score": 1,
+      "signals": [
+        "RSI_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "BELOW_VWAP",
+        "ABOVE_MA200"
+      ],
+      "rsi": 80.9497730168716,
+      "sector": "CRYPTO"
+    },
+    {
+      "symbol": "ALGO",
+      "type": "CRYPTO",
+      "price": 0.08557000011205673,
+      "score": 1,
+      "signals": [
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "BELOW_VWAP"
+      ],
+      "rsi": 57.49633476448587,
+      "sector": "CRYPTO"
+    },
+    {
+      "symbol": "VET",
+      "type": "CRYPTO",
+      "price": 0.006754999980330467,
+      "score": 1,
+      "signals": [
+        "RSI_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "BELOW_VWAP",
+        "ABOVE_MA200"
+      ],
+      "rsi": 81.86937334070456,
+      "sector": "CRYPTO"
+    },
+    {
+      "symbol": "OP",
+      "type": "CRYPTO",
+      "price": 0.09085000306367874,
+      "score": 1,
+      "signals": [
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "BELOW_VWAP"
+      ],
+      "rsi": 55.217371394369536,
+      "sector": "CRYPTO"
+    },
+    {
+      "symbol": "INTC",
+      "type": "STOCK",
+      "price": 89.51000213623047,
+      "score": 0,
+      "signals": [
+        "RSI_NEAR_OVERSOLD",
+        "MACD_BEARISH",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "ABOVE_MA200"
+      ],
+      "rsi": 37.804875281336926,
+      "sector": "XLK"
+    },
+    {
+      "symbol": "ADA",
+      "type": "CRYPTO",
+      "price": 0.198730006814003,
+      "score": 0,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "BELOW_VWAP"
+      ],
+      "rsi": 61.47830000358762,
+      "sector": "CRYPTO"
+    },
+    {
+      "symbol": "DOGE",
+      "type": "CRYPTO",
+      "price": 0.0830100029706955,
+      "score": 0,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "BELOW_VWAP"
+      ],
+      "rsi": 66.20281122300813,
+      "sector": "CRYPTO"
+    },
+    {
+      "symbol": "DOT",
+      "type": "CRYPTO",
+      "price": 0.8355000019073486,
+      "score": 0,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "BELOW_VWAP"
+      ],
+      "rsi": 60.001156714066866,
+      "sector": "CRYPTO"
+    },
+    {
+      "symbol": "AVAX",
+      "type": "CRYPTO",
+      "price": 7.2129998207092285,
+      "score": 0,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "BELOW_VWAP"
+      ],
+      "rsi": 65.72529870608311,
+      "sector": "CRYPTO"
+    },
+    {
+      "symbol": "LTC",
+      "type": "CRYPTO",
+      "price": 48.551998138427734,
+      "score": 0,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "BELOW_VWAP"
+      ],
+      "rsi": 64.70101266797582,
+      "sector": "CRYPTO"
+    },
+    {
+      "symbol": "BCH",
+      "type": "CRYPTO",
+      "price": 247.05999755859375,
+      "score": 0,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "BELOW_VWAP"
+      ],
+      "rsi": 66.03913797374287,
+      "sector": "CRYPTO"
+    },
+    {
+      "symbol": "XLM",
+      "type": "CRYPTO",
+      "price": 0.17768099904060364,
+      "score": 0,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MA_BEARISH",
+        "BELOW_VWAP",
+        "ABOVE_MA200"
+      ],
+      "rsi": 60.37078188548944,
+      "sector": "CRYPTO"
+    },
+    {
+      "symbol": "SHIB",
+      "type": "CRYPTO",
+      "price": 5.060000148660038e-06,
+      "score": 0,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "BELOW_VWAP"
+      ],
+      "rsi": 60.4743067374215,
+      "sector": "CRYPTO"
+    },
+    {
+      "symbol": "NEAR",
+      "type": "CRYPTO",
+      "price": 1.8806999921798706,
+      "score": 0,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MA_BEARISH",
+        "BELOW_VWAP",
+        "ABOVE_MA200"
+      ],
+      "rsi": 62.20208762233703,
+      "sector": "CRYPTO"
+    },
+    {
+      "symbol": "META",
+      "type": "STOCK",
+      "price": 572.3400268554688,
+      "score": -1,
+      "signals": [
+        "MACD_BEARISH",
+        "MA_BEARISH",
+        "BELOW_VWAP"
+      ],
+      "rsi": 40.311164167186696,
+      "sector": "XLK"
+    },
+    {
+      "symbol": "GS",
+      "type": "STOCK",
+      "price": 1025.9000244140625,
+      "score": -1,
+      "signals": [
+        "MACD_BEARISH",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "ABOVE_MA200"
+      ],
+      "rsi": 47.48833951695013,
+      "sector": "XLF"
+    },
+    {
+      "symbol": "MS",
+      "type": "STOCK",
+      "price": 213.32000732421875,
+      "score": -1,
+      "signals": [
+        "MACD_BEARISH",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "ABOVE_MA200"
+      ],
+      "rsi": 47.13208875801198,
+      "sector": "XLF"
+    },
+    {
+      "symbol": "AMD",
+      "type": "STOCK",
+      "price": 470.7200012207031,
+      "score": -1,
+      "signals": [
+        "MACD_BEARISH",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "ABOVE_MA200"
+      ],
+      "rsi": 48.846447735716694,
+      "sector": "XLK"
+    },
+    {
+      "symbol": "FIL",
+      "type": "CRYPTO",
+      "price": 0.6769999861717224,
+      "score": -1,
+      "signals": [
+        "MACD_BEARISH",
+        "MA_BEARISH",
+        "BELOW_VWAP"
+      ],
+      "rsi": 50.14421822785511,
+      "sector": "CRYPTO"
+    },
+    {
+      "symbol": "V",
+      "type": "STOCK",
+      "price": 379.3699951171875,
+      "score": -2,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "ABOVE_VWAP",
+        "AT_RESISTANCE",
+        "ABOVE_MA200"
+      ],
+      "rsi": 66.55328147568424,
+      "sector": "XLF"
+    },
+    {
+      "symbol": "MA",
+      "type": "STOCK",
+      "price": 589.3099975585938,
+      "score": -2,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "ABOVE_VWAP",
+        "AT_RESISTANCE",
+        "ABOVE_MA200"
+      ],
+      "rsi": 68.6371458051708,
+      "sector": "XLF"
+    },
+    {
+      "symbol": "NFLX",
+      "type": "STOCK",
+      "price": 81.05000305175781,
+      "score": -2,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "BELOW_VWAP",
+        "AT_RESISTANCE"
+      ],
+      "rsi": 66.26817282218579,
+      "sector": "XLY"
+    },
+    {
+      "symbol": "ARB",
+      "type": "CRYPTO",
+      "price": 0.0006290287710726261,
+      "score": -2,
+      "signals": [
+        "RSI_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MA_BEARISH",
+        "BB_OVERBOUGHT",
+        "BELOW_VWAP",
+        "AT_SUPPORT",
+        "VOLUME_SPIKE"
+      ],
+      "rsi": 100,
+      "sector": "CRYPTO"
+    },
+    {
+      "symbol": "CRM",
+      "type": "STOCK",
+      "price": 257.5400085449219,
+      "score": -3,
+      "signals": [
+        "RSI_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "BB_OVERBOUGHT",
+        "ABOVE_VWAP",
+        "ABOVE_MA200"
+      ],
+      "rsi": 80.77672383357584,
+      "sector": "XLK"
+    },
+    {
+      "symbol": "AAPL",
+      "type": "STOCK",
+      "price": 316.8500061035156,
+      "score": -4,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "AT_RESISTANCE",
+        "ABOVE_MA200"
+      ],
+      "rsi": 65.12159111990601,
+      "sector": "XLK"
+    },
+    {
+      "symbol": "ADBE",
+      "type": "STOCK",
+      "price": 292.7900085449219,
+      "score": -4,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "BB_OVERBOUGHT",
+        "ABOVE_VWAP",
+        "AT_RESISTANCE",
+        "ABOVE_MA200"
+      ],
+      "rsi": 68.64104388938078,
+      "sector": "XLK"
+    },
+    {
+      "symbol": "TSLA",
+      "type": "STOCK",
+      "price": 367.95001220703125,
+      "score": -6,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MA_BEARISH",
+        "BB_OVERBOUGHT",
+        "BELOW_VWAP",
+        "AT_RESISTANCE"
+      ],
+      "rsi": 64.97615454208241,
+      "sector": "XLY"
+    }
+  ],
+  "sector_performance": null
+}

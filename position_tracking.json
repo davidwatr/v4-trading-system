@@ -1,0 +1,27 @@
+{
+  "PYPL": {
+    "entry_date": "2026-09-11T10:35:50.284748",
+    "shares": 84,
+    "entry_price": 53.31
+  },
+  "GS": {
+    "entry_date": "2026-09-11T10:34:52.897722",
+    "shares": 5,
+    "entry_price": 1019.77
+  },
+  "MS": {
+    "entry_date": "2026-09-10T19:53:47.325868",
+    "shares": 7,
+    "entry_price": 213.92
+  },
+  "NVDA": {
+    "entry_date": "2026-09-11T10:35:49.242052",
+    "shares": 25,
+    "entry_price": 218.36
+  },
+  "TGT": {
+    "entry_date": "2026-09-10T20:10:17.103687",
+    "shares": 5,
+    "entry_price": 157.07
+  }
+}

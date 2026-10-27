@@ -1,0 +1,252 @@
+[
+  {
+    "symbol": "WFC",
+    "price": 86.89,
+    "probability": 0.7854,
+    "signal": "BUY",
+    "score": 0.2854,
+    "rsi": 56.02,
+    "regime": "bull",
+    "timestamp": "2026-09-18T08:01:13.239127"
+  },
+  {
+    "symbol": "DIS",
+    "price": 105.35,
+    "probability": 0.7535,
+    "signal": "BUY",
+    "score": 0.2535,
+    "rsi": 45.8,
+    "regime": "bull",
+    "timestamp": "2026-09-18T08:01:28.053834"
+  },
+  {
+    "symbol": "AMZN",
+    "price": 251.19,
+    "probability": 0.747,
+    "signal": "BUY",
+    "score": 0.247,
+    "rsi": 45.27,
+    "regime": "bull",
+    "timestamp": "2026-09-18T08:01:18.305217"
+  },
+  {
+    "symbol": "JPM",
+    "price": 349.31,
+    "probability": 0.71,
+    "signal": "BUY",
+    "score": 0.21,
+    "rsi": 43.73,
+    "regime": "bull",
+    "timestamp": "2026-09-18T08:01:10.218967"
+  },
+  {
+    "symbol": "MSFT",
+    "price": 497.75,
+    "probability": 0.6828,
+    "signal": "BUY",
+    "score": 0.1828,
+    "rsi": 46.08,
+    "regime": "bull",
+    "timestamp": "2026-09-18T08:01:16.339489"
+  },
+  {
+    "symbol": "ADBE",
+    "price": 252.67,
+    "probability": 0.6826,
+    "signal": "BUY",
+    "score": 0.1826,
+    "rsi": 30.5,
+    "regime": "bull",
+    "timestamp": "2026-09-18T08:01:26.104187"
+  },
+  {
+    "symbol": "GS",
+    "price": 951.47,
+    "probability": 0.6781,
+    "signal": "BUY",
+    "score": 0.1781,
+    "rsi": 28.44,
+    "regime": "bull",
+    "timestamp": "2026-09-18T08:01:11.200560"
+  },
+  {
+    "symbol": "NFLX",
+    "price": 75.31,
+    "probability": 0.6579,
+    "signal": "BUY",
+    "score": 0.1579,
+    "rsi": 39.08,
+    "regime": "bull",
+    "timestamp": "2026-09-18T08:01:27.047261"
+  },
+  {
+    "symbol": "AAPL",
+    "price": 337.0,
+    "probability": 0.6339,
+    "signal": "BUY",
+    "score": 0.1339,
+    "rsi": 69.43,
+    "regime": "bull",
+    "timestamp": "2026-09-18T08:01:15.331165"
+  },
+  {
+    "symbol": "MS",
+    "price": 203.52,
+    "probability": 0.6337,
+    "signal": "BUY",
+    "score": 0.1337,
+    "rsi": 31.31,
+    "regime": "bull",
+    "timestamp": "2026-09-18T08:01:12.231978"
+  },
+  {
+    "symbol": "BAC",
+    "price": 58.18,
+    "probability": 0.5889,
+    "signal": "HOLD",
+    "score": 0.0889,
+    "rsi": 33.33,
+    "regime": "bull",
+    "timestamp": "2026-09-18T08:01:09.132216"
+  },
+  {
+    "symbol": "CSCO",
+    "price": 110.24,
+    "probability": 0.579,
+    "signal": "HOLD",
+    "score": 0.079,
+    "rsi": 45.01,
+    "regime": "bull",
+    "timestamp": "2026-09-18T08:01:24.069513"
+  },
+  {
+    "symbol": "C",
+    "price": 132.7,
+    "probability": 0.57,
+    "signal": "HOLD",
+    "score": 0.07,
+    "rsi": 50.06,
+    "regime": "bull",
+    "timestamp": "2026-09-18T08:01:14.331961"
+  },
+  {
+    "symbol": "CRM",
+    "price": 242.85,
+    "probability": 0.5697,
+    "signal": "HOLD",
+    "score": 0.0697,
+    "rsi": 43.35,
+    "regime": "bull",
+    "timestamp": "2026-09-18T08:01:25.054088"
+  },
+  {
+    "symbol": "PYPL",
+    "price": 52.94,
+    "probability": 0.5551,
+    "signal": "HOLD",
+    "score": 0.0551,
+    "rsi": 30.21,
+    "regime": "bull",
+    "timestamp": "2026-09-18T08:01:06.123617"
+  },
+  {
+    "symbol": "TSLA",
+    "price": 366.2,
+    "probability": 0.5487,
+    "signal": "HOLD",
+    "score": 0.0487,
+    "rsi": 54.8,
+    "regime": "bull",
+    "timestamp": "2026-09-18T08:01:21.129096"
+  },
+  {
+    "symbol": "NVDA",
+    "price": 219.34,
+    "probability": 0.5098,
+    "signal": "HOLD",
+    "score": 0.0098,
+    "rsi": 42.51,
+    "regime": "bull",
+    "timestamp": "2026-09-18T08:01:19.284019"
+  },
+  {
+    "symbol": "GOOGL",
+    "price": 347.33,
+    "probability": 0.5041,
+    "signal": "HOLD",
+    "score": 0.0041,
+    "rsi": 55.02,
+    "regime": "bull",
+    "timestamp": "2026-09-18T08:01:17.325150"
+  },
+  {
+    "symbol": "META",
+    "price": 682.31,
+    "probability": 0.4532,
+    "signal": "HOLD",
+    "score": -0.0468,
+    "rsi": 87.63,
+    "regime": "bull",
+    "timestamp": "2026-09-18T08:01:20.239526"
+  },
+  {
+    "symbol": "ORCL",
+    "price": 150.59,
+    "probability": 0.4132,
+    "signal": "HOLD",
+    "score": -0.0868,
+    "rsi": 48.95,
+    "regime": "bull",
+    "timestamp": "2026-09-18T08:01:07.104813"
+  },
+  {
+    "symbol": "MA",
+    "price": 565.73,
+    "probability": 0.3888,
+    "signal": "SELL",
+    "score": -0.1112,
+    "rsi": 30.1,
+    "regime": "bull",
+    "timestamp": "2026-09-18T08:01:29.992589"
+  },
+  {
+    "symbol": "V",
+    "price": 369.93,
+    "probability": 0.3299,
+    "signal": "SELL",
+    "score": -0.1701,
+    "rsi": 38.58,
+    "regime": "bull",
+    "timestamp": "2026-09-18T08:01:29.053239"
+  },
+  {
+    "symbol": "AMD",
+    "price": 545.09,
+    "probability": 0.3267,
+    "signal": "SELL",
+    "score": -0.1733,
+    "rsi": 67.09,
+    "regime": "bull",
+    "timestamp": "2026-09-18T08:01:23.047058"
+  },
+  {
+    "symbol": "INTC",
+    "price": 108.8,
+    "probability": 0.3042,
+    "signal": "SELL",
+    "score": -0.1958,
+    "rsi": 67.98,
+    "regime": "bull",
+    "timestamp": "2026-09-18T08:01:22.077181"
+  },
+  {
+    "symbol": "BRK-B",
+    "price": 509.2,
+    "probability": 0.1963,
+    "signal": "SELL",
+    "score": -0.3037,
+    "rsi": 57.51,
+    "regime": "bull",
+    "timestamp": "2026-09-18T08:01:08.107682"
+  }
+]

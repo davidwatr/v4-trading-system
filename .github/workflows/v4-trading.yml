@@ -1,0 +1,55 @@
+name: V4 Trading System - Daily Execution
+
+on:
+  schedule:
+    # BACKUP trigger — primary is local hermes cron (job e2f4f1832109) dispatching
+    # this workflow at 14:25Z weekdays; GH schedule is unreliable (5.5-9.4h slips).
+    # 14:30 UTC = 16:30 Israel (IST) / 17:30 (IDT)
+    - cron: '30 14 * * 1-5'
+  # Also allow manual runs from GitHub UI
+  workflow_dispatch:
+
+jobs:
+  run-v4-executor:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install numpy pandas requests alpaca-py
+        
+    - name: Run V4 Executor
+      env:
+        APCA_API_KEY_ID: ${{ secrets.APCA_API_KEY_ID }}
+        APCA_API_SECRET_KEY: ${{ secrets.APCA_API_SECRET_KEY }}
+        APCA_PAPER: ${{ secrets.APCA_PAPER }}
+      run: |
+        python v4_executor.py
+        
+    - name: Run daily self-review
+      if: always()
+      env:
+        APCA_API_KEY_ID: ${{ secrets.APCA_API_KEY_ID }}
+        APCA_API_SECRET_KEY: ${{ secrets.APCA_API_SECRET_KEY }}
+        APCA_PAPER: ${{ secrets.APCA_PAPER }}
+      run: |
+        python daily_review.py --snapshot
+
+    - name: Upload results as artifact
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: trading-results
+        path: |
+          *.log
+          v4_*.json
+        retention-days: 30

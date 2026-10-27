@@ -1,0 +1,1483 @@
+{
+  "v14": [
+    {
+      "symbol": "BRK-B",
+      "type": "STOCK",
+      "price": 504.0299987792969,
+      "score": 8,
+      "signals": [
+        "RSI_NEAR_OVERSOLD",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BULLISH",
+        "AT_SUPPORT",
+        "ABOVE_MA200",
+        "IV_LOW"
+      ]
+    },
+    {
+      "symbol": "PYPL",
+      "type": "STOCK",
+      "price": 52.665000915527344,
+      "score": 8,
+      "signals": [
+        "RSI_NEAR_OVERSOLD",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BULLISH",
+        "BB_OVERSOLD",
+        "AT_SUPPORT",
+        "ABOVE_MA200"
+      ]
+    },
+    {
+      "symbol": "BAC",
+      "type": "STOCK",
+      "price": 61.939998626708984,
+      "score": 7,
+      "signals": [
+        "RSI_NEAR_OVERSOLD",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BULLISH",
+        "ABOVE_VWAP",
+        "AT_SUPPORT",
+        "ABOVE_MA200",
+        "IV_LOW"
+      ]
+    },
+    {
+      "symbol": "JPM",
+      "type": "STOCK",
+      "price": 356.0199890136719,
+      "score": 6,
+      "signals": [
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BULLISH",
+        "ABOVE_VWAP",
+        "AT_SUPPORT",
+        "ABOVE_MA200",
+        "IV_LOW"
+      ]
+    },
+    {
+      "symbol": "AMZN",
+      "type": "STOCK",
+      "price": 259.7699890136719,
+      "score": 5,
+      "signals": [
+        "RSI_NEAR_OVERSOLD",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BULLISH",
+        "ABOVE_VWAP",
+        "AT_SUPPORT",
+        "ABOVE_MA200"
+      ]
+    },
+    {
+      "symbol": "C",
+      "type": "STOCK",
+      "price": 131.6199951171875,
+      "score": 5,
+      "signals": [
+        "RSI_NEAR_OVERSOLD",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "AT_SUPPORT",
+        "ABOVE_MA200",
+        "IV_LOW"
+      ]
+    },
+    {
+      "symbol": "DIS",
+      "type": "STOCK",
+      "price": 107.55000305175781,
+      "score": 5,
+      "signals": [
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BULLISH",
+        "ABOVE_MA200",
+        "IV_LOW"
+      ]
+    },
+    {
+      "symbol": "GOOGL",
+      "type": "STOCK",
+      "price": 339.3500061035156,
+      "score": 4,
+      "signals": [
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "AT_SUPPORT",
+        "ABOVE_MA200",
+        "IV_LOW"
+      ]
+    },
+    {
+      "symbol": "ORCL",
+      "type": "STOCK",
+      "price": 149.1199951171875,
+      "score": 4,
+      "signals": [
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BULLISH",
+        "BELOW_VWAP",
+        "IV_LOW"
+      ]
+    },
+    {
+      "symbol": "WFC",
+      "type": "STOCK",
+      "price": 86.38999938964844,
+      "score": 3,
+      "signals": [
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_DOWN",
+        "MA_BULLISH",
+        "ABOVE_MA200",
+        "IV_LOW"
+      ]
+    },
+    {
+      "symbol": "MSFT",
+      "type": "STOCK",
+      "price": 507.2900085449219,
+      "score": 2,
+      "signals": [
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BULLISH",
+        "ABOVE_VWAP",
+        "ABOVE_MA200"
+      ]
+    },
+    {
+      "symbol": "GS",
+      "type": "STOCK",
+      "price": 1025.9000244140625,
+      "score": 2,
+      "signals": [
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "ABOVE_MA200",
+        "IV_LOW"
+      ]
+    },
+    {
+      "symbol": "MS",
+      "type": "STOCK",
+      "price": 213.32000732421875,
+      "score": 2,
+      "signals": [
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "ABOVE_MA200",
+        "IV_LOW"
+      ]
+    },
+    {
+      "symbol": "INTC",
+      "type": "STOCK",
+      "price": 89.51000213623047,
+      "score": 1,
+      "signals": [
+        "RSI_NEAR_OVERSOLD",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "ABOVE_MA200"
+      ]
+    },
+    {
+      "symbol": "CSCO",
+      "type": "STOCK",
+      "price": 110.48999786376953,
+      "score": 1,
+      "signals": [
+        "RSI_NEAR_OVERSOLD",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_DOWN",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "AT_SUPPORT",
+        "ABOVE_MA200"
+      ]
+    },
+    {
+      "symbol": "NFLX",
+      "type": "STOCK",
+      "price": 81.05000305175781,
+      "score": 1,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BULLISH",
+        "BELOW_VWAP",
+        "AT_RESISTANCE",
+        "IV_LOW"
+      ]
+    },
+    {
+      "symbol": "NVDA",
+      "type": "STOCK",
+      "price": 220.77999877929688,
+      "score": 0,
+      "signals": [
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_DOWN",
+        "MA_BULLISH",
+        "ABOVE_VWAP",
+        "ABOVE_MA200"
+      ]
+    },
+    {
+      "symbol": "META",
+      "type": "STOCK",
+      "price": 572.3400268554688,
+      "score": 0,
+      "signals": [
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BEARISH",
+        "BELOW_VWAP"
+      ]
+    },
+    {
+      "symbol": "V",
+      "type": "STOCK",
+      "price": 379.3699951171875,
+      "score": -1,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BULLISH",
+        "ABOVE_VWAP",
+        "AT_RESISTANCE",
+        "ABOVE_MA200"
+      ]
+    },
+    {
+      "symbol": "MA",
+      "type": "STOCK",
+      "price": 589.3099975585938,
+      "score": -1,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BULLISH",
+        "ABOVE_VWAP",
+        "AT_RESISTANCE",
+        "ABOVE_MA200"
+      ]
+    },
+    {
+      "symbol": "AMD",
+      "type": "STOCK",
+      "price": 470.7200012207031,
+      "score": -2,
+      "signals": [
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_DOWN",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "ABOVE_MA200"
+      ]
+    },
+    {
+      "symbol": "AAPL",
+      "type": "STOCK",
+      "price": 316.8500061035156,
+      "score": -3,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "AT_RESISTANCE",
+        "ABOVE_MA200"
+      ]
+    },
+    {
+      "symbol": "TSLA",
+      "type": "STOCK",
+      "price": 367.95001220703125,
+      "score": -5,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_DOWN",
+        "MA_BEARISH",
+        "BB_OVERBOUGHT",
+        "BELOW_VWAP",
+        "AT_RESISTANCE",
+        "IV_LOW"
+      ]
+    },
+    {
+      "symbol": "ADBE",
+      "type": "STOCK",
+      "price": 292.7900085449219,
+      "score": -5,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_DOWN",
+        "MA_BULLISH",
+        "BB_OVERBOUGHT",
+        "ABOVE_VWAP",
+        "AT_RESISTANCE",
+        "ABOVE_MA200"
+      ]
+    },
+    {
+      "symbol": "CRM",
+      "type": "STOCK",
+      "price": 257.5400085449219,
+      "score": -6,
+      "signals": [
+        "RSI_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_DOWN",
+        "MA_BULLISH",
+        "BB_OVERBOUGHT",
+        "ABOVE_VWAP",
+        "ABOVE_MA200",
+        "IV_HIGH"
+      ]
+    }
+  ],
+  "v15": [
+    {
+      "symbol": "BRK-B",
+      "type": "STOCK",
+      "price": 504.0299987792969,
+      "score": 9,
+      "signals": [
+        "RSI_NEAR_OVERSOLD",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BULLISH",
+        "AT_SUPPORT",
+        "ABOVE_MA200",
+        "IV_LOW",
+        "BULL_MARKET"
+      ]
+    },
+    {
+      "symbol": "PYPL",
+      "type": "STOCK",
+      "price": 52.665000915527344,
+      "score": 9,
+      "signals": [
+        "RSI_NEAR_OVERSOLD",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BULLISH",
+        "BB_OVERSOLD",
+        "AT_SUPPORT",
+        "ABOVE_MA200",
+        "BULL_MARKET"
+      ]
+    },
+    {
+      "symbol": "BAC",
+      "type": "STOCK",
+      "price": 61.939998626708984,
+      "score": 8,
+      "signals": [
+        "RSI_NEAR_OVERSOLD",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BULLISH",
+        "ABOVE_VWAP",
+        "AT_SUPPORT",
+        "ABOVE_MA200",
+        "IV_LOW",
+        "BULL_MARKET"
+      ]
+    },
+    {
+      "symbol": "JPM",
+      "type": "STOCK",
+      "price": 356.0199890136719,
+      "score": 7,
+      "signals": [
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BULLISH",
+        "ABOVE_VWAP",
+        "AT_SUPPORT",
+        "ABOVE_MA200",
+        "IV_LOW",
+        "BULL_MARKET"
+      ]
+    },
+    {
+      "symbol": "AMZN",
+      "type": "STOCK",
+      "price": 259.7699890136719,
+      "score": 6,
+      "signals": [
+        "RSI_NEAR_OVERSOLD",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BULLISH",
+        "ABOVE_VWAP",
+        "AT_SUPPORT",
+        "ABOVE_MA200",
+        "BULL_MARKET"
+      ]
+    },
+    {
+      "symbol": "C",
+      "type": "STOCK",
+      "price": 131.6199951171875,
+      "score": 6,
+      "signals": [
+        "RSI_NEAR_OVERSOLD",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "AT_SUPPORT",
+        "ABOVE_MA200",
+        "IV_LOW",
+        "BULL_MARKET"
+      ]
+    },
+    {
+      "symbol": "DIS",
+      "type": "STOCK",
+      "price": 107.55000305175781,
+      "score": 6,
+      "signals": [
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BULLISH",
+        "ABOVE_MA200",
+        "IV_LOW",
+        "BULL_MARKET"
+      ]
+    },
+    {
+      "symbol": "GOOGL",
+      "type": "STOCK",
+      "price": 339.3500061035156,
+      "score": 5,
+      "signals": [
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "AT_SUPPORT",
+        "ABOVE_MA200",
+        "IV_LOW",
+        "BULL_MARKET"
+      ]
+    },
+    {
+      "symbol": "ORCL",
+      "type": "STOCK",
+      "price": 149.1199951171875,
+      "score": 5,
+      "signals": [
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BULLISH",
+        "BELOW_VWAP",
+        "IV_LOW",
+        "BULL_MARKET"
+      ]
+    },
+    {
+      "symbol": "WFC",
+      "type": "STOCK",
+      "price": 86.38999938964844,
+      "score": 4,
+      "signals": [
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_DOWN",
+        "MA_BULLISH",
+        "ABOVE_MA200",
+        "IV_LOW",
+        "BULL_MARKET"
+      ]
+    },
+    {
+      "symbol": "MSFT",
+      "type": "STOCK",
+      "price": 507.2900085449219,
+      "score": 3,
+      "signals": [
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BULLISH",
+        "ABOVE_VWAP",
+        "ABOVE_MA200",
+        "BULL_MARKET"
+      ]
+    },
+    {
+      "symbol": "GS",
+      "type": "STOCK",
+      "price": 1025.9000244140625,
+      "score": 3,
+      "signals": [
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "ABOVE_MA200",
+        "IV_LOW",
+        "BULL_MARKET"
+      ]
+    },
+    {
+      "symbol": "MS",
+      "type": "STOCK",
+      "price": 213.32000732421875,
+      "score": 3,
+      "signals": [
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "ABOVE_MA200",
+        "IV_LOW",
+        "BULL_MARKET"
+      ]
+    },
+    {
+      "symbol": "INTC",
+      "type": "STOCK",
+      "price": 89.51000213623047,
+      "score": 2,
+      "signals": [
+        "RSI_NEAR_OVERSOLD",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "ABOVE_MA200",
+        "BULL_MARKET"
+      ]
+    },
+    {
+      "symbol": "CSCO",
+      "type": "STOCK",
+      "price": 110.48999786376953,
+      "score": 2,
+      "signals": [
+        "RSI_NEAR_OVERSOLD",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_DOWN",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "AT_SUPPORT",
+        "ABOVE_MA200",
+        "BULL_MARKET"
+      ]
+    },
+    {
+      "symbol": "NFLX",
+      "type": "STOCK",
+      "price": 81.05000305175781,
+      "score": 2,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BULLISH",
+        "BELOW_VWAP",
+        "AT_RESISTANCE",
+        "IV_LOW",
+        "BULL_MARKET"
+      ]
+    },
+    {
+      "symbol": "NVDA",
+      "type": "STOCK",
+      "price": 220.77999877929688,
+      "score": 1,
+      "signals": [
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_DOWN",
+        "MA_BULLISH",
+        "ABOVE_VWAP",
+        "ABOVE_MA200",
+        "BULL_MARKET"
+      ]
+    },
+    {
+      "symbol": "META",
+      "type": "STOCK",
+      "price": 572.3400268554688,
+      "score": 1,
+      "signals": [
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BEARISH",
+        "BELOW_VWAP",
+        "BULL_MARKET"
+      ]
+    },
+    {
+      "symbol": "V",
+      "type": "STOCK",
+      "price": 379.3699951171875,
+      "score": 0,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BULLISH",
+        "ABOVE_VWAP",
+        "AT_RESISTANCE",
+        "ABOVE_MA200",
+        "BULL_MARKET"
+      ]
+    },
+    {
+      "symbol": "MA",
+      "type": "STOCK",
+      "price": 589.3099975585938,
+      "score": 0,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BULLISH",
+        "ABOVE_VWAP",
+        "AT_RESISTANCE",
+        "ABOVE_MA200",
+        "BULL_MARKET"
+      ]
+    },
+    {
+      "symbol": "AMD",
+      "type": "STOCK",
+      "price": 470.7200012207031,
+      "score": -1,
+      "signals": [
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_DOWN",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "ABOVE_MA200",
+        "BULL_MARKET"
+      ]
+    },
+    {
+      "symbol": "AAPL",
+      "type": "STOCK",
+      "price": 316.8500061035156,
+      "score": -2,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "AT_RESISTANCE",
+        "ABOVE_MA200",
+        "BULL_MARKET"
+      ]
+    },
+    {
+      "symbol": "TSLA",
+      "type": "STOCK",
+      "price": 367.95001220703125,
+      "score": -4,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_DOWN",
+        "MA_BEARISH",
+        "BB_OVERBOUGHT",
+        "BELOW_VWAP",
+        "AT_RESISTANCE",
+        "IV_LOW",
+        "BULL_MARKET"
+      ]
+    },
+    {
+      "symbol": "ADBE",
+      "type": "STOCK",
+      "price": 292.7900085449219,
+      "score": -4,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_DOWN",
+        "MA_BULLISH",
+        "BB_OVERBOUGHT",
+        "ABOVE_VWAP",
+        "AT_RESISTANCE",
+        "ABOVE_MA200",
+        "BULL_MARKET"
+      ]
+    },
+    {
+      "symbol": "CRM",
+      "type": "STOCK",
+      "price": 257.5400085449219,
+      "score": -5,
+      "signals": [
+        "RSI_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_DOWN",
+        "MA_BULLISH",
+        "BB_OVERBOUGHT",
+        "ABOVE_VWAP",
+        "ABOVE_MA200",
+        "IV_HIGH",
+        "BULL_MARKET"
+      ]
+    }
+  ],
+  "v16": [
+    {
+      "symbol": "BRK-B",
+      "type": "STOCK",
+      "price": 504.0299987792969,
+      "score": 8,
+      "signals": [
+        "RSI_NEAR_OVERSOLD",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BULLISH",
+        "AT_SUPPORT",
+        "ABOVE_MA200",
+        "IV_LOW",
+        "SENTIMENT_NEUTRAL"
+      ]
+    },
+    {
+      "symbol": "PYPL",
+      "type": "STOCK",
+      "price": 52.665000915527344,
+      "score": 8,
+      "signals": [
+        "RSI_NEAR_OVERSOLD",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BULLISH",
+        "BB_OVERSOLD",
+        "AT_SUPPORT",
+        "ABOVE_MA200",
+        "SENTIMENT_NEUTRAL"
+      ]
+    },
+    {
+      "symbol": "BAC",
+      "type": "STOCK",
+      "price": 61.939998626708984,
+      "score": 7,
+      "signals": [
+        "RSI_NEAR_OVERSOLD",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BULLISH",
+        "ABOVE_VWAP",
+        "AT_SUPPORT",
+        "ABOVE_MA200",
+        "IV_LOW",
+        "SENTIMENT_NEUTRAL"
+      ]
+    },
+    {
+      "symbol": "JPM",
+      "type": "STOCK",
+      "price": 356.0199890136719,
+      "score": 6,
+      "signals": [
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BULLISH",
+        "ABOVE_VWAP",
+        "AT_SUPPORT",
+        "ABOVE_MA200",
+        "IV_LOW",
+        "SENTIMENT_NEUTRAL"
+      ]
+    },
+    {
+      "symbol": "AMZN",
+      "type": "STOCK",
+      "price": 259.7699890136719,
+      "score": 5,
+      "signals": [
+        "RSI_NEAR_OVERSOLD",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BULLISH",
+        "ABOVE_VWAP",
+        "AT_SUPPORT",
+        "ABOVE_MA200",
+        "SENTIMENT_NEUTRAL"
+      ]
+    },
+    {
+      "symbol": "C",
+      "type": "STOCK",
+      "price": 131.6199951171875,
+      "score": 5,
+      "signals": [
+        "RSI_NEAR_OVERSOLD",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "AT_SUPPORT",
+        "ABOVE_MA200",
+        "IV_LOW",
+        "SENTIMENT_NEUTRAL"
+      ]
+    },
+    {
+      "symbol": "DIS",
+      "type": "STOCK",
+      "price": 107.55000305175781,
+      "score": 5,
+      "signals": [
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BULLISH",
+        "ABOVE_MA200",
+        "IV_LOW",
+        "SENTIMENT_NEUTRAL"
+      ]
+    },
+    {
+      "symbol": "GOOGL",
+      "type": "STOCK",
+      "price": 339.3500061035156,
+      "score": 4,
+      "signals": [
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "AT_SUPPORT",
+        "ABOVE_MA200",
+        "IV_LOW",
+        "SENTIMENT_NEUTRAL"
+      ]
+    },
+    {
+      "symbol": "ORCL",
+      "type": "STOCK",
+      "price": 149.1199951171875,
+      "score": 4,
+      "signals": [
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BULLISH",
+        "BELOW_VWAP",
+        "IV_LOW",
+        "SENTIMENT_NEUTRAL"
+      ]
+    },
+    {
+      "symbol": "WFC",
+      "type": "STOCK",
+      "price": 86.38999938964844,
+      "score": 3,
+      "signals": [
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_DOWN",
+        "MA_BULLISH",
+        "ABOVE_MA200",
+        "IV_LOW",
+        "SENTIMENT_NEUTRAL"
+      ]
+    },
+    {
+      "symbol": "MSFT",
+      "type": "STOCK",
+      "price": 507.2900085449219,
+      "score": 2,
+      "signals": [
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BULLISH",
+        "ABOVE_VWAP",
+        "ABOVE_MA200",
+        "SENTIMENT_NEUTRAL"
+      ]
+    },
+    {
+      "symbol": "GS",
+      "type": "STOCK",
+      "price": 1025.9000244140625,
+      "score": 2,
+      "signals": [
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "ABOVE_MA200",
+        "IV_LOW",
+        "SENTIMENT_NEUTRAL"
+      ]
+    },
+    {
+      "symbol": "MS",
+      "type": "STOCK",
+      "price": 213.32000732421875,
+      "score": 2,
+      "signals": [
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "ABOVE_MA200",
+        "IV_LOW",
+        "SENTIMENT_NEUTRAL"
+      ]
+    },
+    {
+      "symbol": "INTC",
+      "type": "STOCK",
+      "price": 89.51000213623047,
+      "score": 1,
+      "signals": [
+        "RSI_NEAR_OVERSOLD",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "ABOVE_MA200",
+        "SENTIMENT_NEUTRAL"
+      ]
+    },
+    {
+      "symbol": "CSCO",
+      "type": "STOCK",
+      "price": 110.48999786376953,
+      "score": 1,
+      "signals": [
+        "RSI_NEAR_OVERSOLD",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_DOWN",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "AT_SUPPORT",
+        "ABOVE_MA200",
+        "SENTIMENT_NEUTRAL"
+      ]
+    },
+    {
+      "symbol": "NFLX",
+      "type": "STOCK",
+      "price": 81.05000305175781,
+      "score": 1,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BULLISH",
+        "BELOW_VWAP",
+        "AT_RESISTANCE",
+        "IV_LOW",
+        "SENTIMENT_NEUTRAL"
+      ]
+    },
+    {
+      "symbol": "NVDA",
+      "type": "STOCK",
+      "price": 220.77999877929688,
+      "score": 0,
+      "signals": [
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_DOWN",
+        "MA_BULLISH",
+        "ABOVE_VWAP",
+        "ABOVE_MA200",
+        "SENTIMENT_NEUTRAL"
+      ]
+    },
+    {
+      "symbol": "META",
+      "type": "STOCK",
+      "price": 572.3400268554688,
+      "score": 0,
+      "signals": [
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BEARISH",
+        "BELOW_VWAP",
+        "SENTIMENT_NEUTRAL"
+      ]
+    },
+    {
+      "symbol": "V",
+      "type": "STOCK",
+      "price": 379.3699951171875,
+      "score": -1,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BULLISH",
+        "ABOVE_VWAP",
+        "AT_RESISTANCE",
+        "ABOVE_MA200",
+        "SENTIMENT_NEUTRAL"
+      ]
+    },
+    {
+      "symbol": "MA",
+      "type": "STOCK",
+      "price": 589.3099975585938,
+      "score": -1,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BULLISH",
+        "ABOVE_VWAP",
+        "AT_RESISTANCE",
+        "ABOVE_MA200",
+        "SENTIMENT_NEUTRAL"
+      ]
+    },
+    {
+      "symbol": "AMD",
+      "type": "STOCK",
+      "price": 470.7200012207031,
+      "score": -2,
+      "signals": [
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_DOWN",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "ABOVE_MA200",
+        "SENTIMENT_NEUTRAL"
+      ]
+    },
+    {
+      "symbol": "AAPL",
+      "type": "STOCK",
+      "price": 316.8500061035156,
+      "score": -3,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_UP",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "AT_RESISTANCE",
+        "ABOVE_MA200",
+        "SENTIMENT_NEUTRAL"
+      ]
+    },
+    {
+      "symbol": "TSLA",
+      "type": "STOCK",
+      "price": 367.95001220703125,
+      "score": -5,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_DOWN",
+        "MA_BEARISH",
+        "BB_OVERBOUGHT",
+        "BELOW_VWAP",
+        "AT_RESISTANCE",
+        "IV_LOW",
+        "SENTIMENT_NEUTRAL"
+      ]
+    },
+    {
+      "symbol": "ADBE",
+      "type": "STOCK",
+      "price": 292.7900085449219,
+      "score": -5,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_DOWN",
+        "MA_BULLISH",
+        "BB_OVERBOUGHT",
+        "ABOVE_VWAP",
+        "AT_RESISTANCE",
+        "ABOVE_MA200",
+        "SENTIMENT_NEUTRAL"
+      ]
+    },
+    {
+      "symbol": "CRM",
+      "type": "STOCK",
+      "price": 257.5400085449219,
+      "score": -6,
+      "signals": [
+        "RSI_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MACD_MOMENTUM_DOWN",
+        "MA_BULLISH",
+        "BB_OVERBOUGHT",
+        "ABOVE_VWAP",
+        "ABOVE_MA200",
+        "IV_HIGH",
+        "SENTIMENT_NEUTRAL"
+      ]
+    }
+  ],
+  "v17": [
+    {
+      "symbol": "PYPL",
+      "type": "STOCK",
+      "price": 52.665000915527344,
+      "score": 9,
+      "signals": [
+        "RSI_NEAR_OVERSOLD",
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "BB_OVERSOLD",
+        "AT_SUPPORT",
+        "ABOVE_MA200"
+      ]
+    },
+    {
+      "symbol": "BRK-B",
+      "type": "STOCK",
+      "price": 504.0299987792969,
+      "score": 8,
+      "signals": [
+        "RSI_NEAR_OVERSOLD",
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "AT_SUPPORT",
+        "ABOVE_MA200",
+        "IV_LOW"
+      ]
+    },
+    {
+      "symbol": "BAC",
+      "type": "STOCK",
+      "price": 61.939998626708984,
+      "score": 8,
+      "signals": [
+        "RSI_NEAR_OVERSOLD",
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "ABOVE_VWAP",
+        "AT_SUPPORT",
+        "ABOVE_MA200",
+        "IV_LOW"
+      ]
+    },
+    {
+      "symbol": "JPM",
+      "type": "STOCK",
+      "price": 356.0199890136719,
+      "score": 6,
+      "signals": [
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "ABOVE_VWAP",
+        "AT_SUPPORT",
+        "ABOVE_MA200",
+        "IV_LOW"
+      ]
+    },
+    {
+      "symbol": "AMZN",
+      "type": "STOCK",
+      "price": 259.7699890136719,
+      "score": 5,
+      "signals": [
+        "RSI_NEAR_OVERSOLD",
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "ABOVE_VWAP",
+        "AT_SUPPORT",
+        "ABOVE_MA200"
+      ]
+    },
+    {
+      "symbol": "WFC",
+      "type": "STOCK",
+      "price": 86.38999938964844,
+      "score": 4,
+      "signals": [
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "ABOVE_MA200",
+        "IV_LOW"
+      ]
+    },
+    {
+      "symbol": "C",
+      "type": "STOCK",
+      "price": 131.6199951171875,
+      "score": 4,
+      "signals": [
+        "RSI_NEAR_OVERSOLD",
+        "MACD_BEARISH",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "AT_SUPPORT",
+        "ABOVE_MA200",
+        "IV_LOW"
+      ]
+    },
+    {
+      "symbol": "ORCL",
+      "type": "STOCK",
+      "price": 149.1199951171875,
+      "score": 4,
+      "signals": [
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "BELOW_VWAP",
+        "IV_LOW"
+      ]
+    },
+    {
+      "symbol": "DIS",
+      "type": "STOCK",
+      "price": 107.55000305175781,
+      "score": 4,
+      "signals": [
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "ABOVE_MA200",
+        "IV_LOW"
+      ]
+    },
+    {
+      "symbol": "GOOGL",
+      "type": "STOCK",
+      "price": 339.3500061035156,
+      "score": 2,
+      "signals": [
+        "MACD_BEARISH",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "AT_SUPPORT",
+        "ABOVE_MA200",
+        "IV_LOW"
+      ]
+    },
+    {
+      "symbol": "CSCO",
+      "type": "STOCK",
+      "price": 110.48999786376953,
+      "score": 2,
+      "signals": [
+        "RSI_NEAR_OVERSOLD",
+        "MACD_BEARISH",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "AT_SUPPORT",
+        "ABOVE_MA200"
+      ]
+    },
+    {
+      "symbol": "MSFT",
+      "type": "STOCK",
+      "price": 507.2900085449219,
+      "score": 0,
+      "signals": [
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "ABOVE_VWAP",
+        "ABOVE_MA200"
+      ]
+    },
+    {
+      "symbol": "NVDA",
+      "type": "STOCK",
+      "price": 220.77999877929688,
+      "score": 0,
+      "signals": [
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "ABOVE_VWAP",
+        "ABOVE_MA200"
+      ]
+    },
+    {
+      "symbol": "GS",
+      "type": "STOCK",
+      "price": 1025.9000244140625,
+      "score": 0,
+      "signals": [
+        "MACD_BEARISH",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "ABOVE_MA200",
+        "IV_LOW"
+      ]
+    },
+    {
+      "symbol": "MS",
+      "type": "STOCK",
+      "price": 213.32000732421875,
+      "score": 0,
+      "signals": [
+        "MACD_BEARISH",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "ABOVE_MA200",
+        "IV_LOW"
+      ]
+    },
+    {
+      "symbol": "INTC",
+      "type": "STOCK",
+      "price": 89.51000213623047,
+      "score": 0,
+      "signals": [
+        "RSI_NEAR_OVERSOLD",
+        "MACD_BEARISH",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "ABOVE_MA200"
+      ]
+    },
+    {
+      "symbol": "NFLX",
+      "type": "STOCK",
+      "price": 81.05000305175781,
+      "score": 0,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "BELOW_VWAP",
+        "AT_RESISTANCE",
+        "IV_LOW"
+      ]
+    },
+    {
+      "symbol": "META",
+      "type": "STOCK",
+      "price": 572.3400268554688,
+      "score": -1,
+      "signals": [
+        "MACD_BEARISH",
+        "MA_BEARISH",
+        "BELOW_VWAP"
+      ]
+    },
+    {
+      "symbol": "V",
+      "type": "STOCK",
+      "price": 379.3699951171875,
+      "score": -2,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "ABOVE_VWAP",
+        "AT_RESISTANCE",
+        "ABOVE_MA200"
+      ]
+    },
+    {
+      "symbol": "MA",
+      "type": "STOCK",
+      "price": 589.3099975585938,
+      "score": -2,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "ABOVE_VWAP",
+        "AT_RESISTANCE",
+        "ABOVE_MA200"
+      ]
+    },
+    {
+      "symbol": "AMD",
+      "type": "STOCK",
+      "price": 470.7200012207031,
+      "score": -2,
+      "signals": [
+        "MACD_BEARISH",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "ABOVE_MA200"
+      ]
+    },
+    {
+      "symbol": "ADBE",
+      "type": "STOCK",
+      "price": 292.7900085449219,
+      "score": -5,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "BB_OVERBOUGHT",
+        "ABOVE_VWAP",
+        "AT_RESISTANCE",
+        "ABOVE_MA200"
+      ]
+    },
+    {
+      "symbol": "AAPL",
+      "type": "STOCK",
+      "price": 316.8500061035156,
+      "score": -6,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MA_BEARISH",
+        "ABOVE_VWAP",
+        "AT_RESISTANCE",
+        "ABOVE_MA200"
+      ]
+    },
+    {
+      "symbol": "TSLA",
+      "type": "STOCK",
+      "price": 367.95001220703125,
+      "score": -6,
+      "signals": [
+        "RSI_NEAR_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MA_BEARISH",
+        "BB_OVERBOUGHT",
+        "BELOW_VWAP",
+        "AT_RESISTANCE",
+        "IV_LOW"
+      ]
+    },
+    {
+      "symbol": "CRM",
+      "type": "STOCK",
+      "price": 257.5400085449219,
+      "score": -6,
+      "signals": [
+        "RSI_OVERBOUGHT",
+        "MACD_BEARISH",
+        "MA_BULLISH",
+        "BB_OVERBOUGHT",
+        "ABOVE_VWAP",
+        "ABOVE_MA200",
+        "IV_HIGH"
+      ]
+    }
+  ]
+}

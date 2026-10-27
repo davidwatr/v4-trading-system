@@ -1,0 +1,1260 @@
+{
+  "timestamp": "2026-08-30T20:50:44.518452",
+  "source": "alpha_vantage",
+  "results": [
+    {
+      "symbol": "AAPL",
+      "article_count": 50,
+      "avg_sentiment": 0.21790274000000004,
+      "positive_articles": 45,
+      "negative_articles": 5,
+      "neutral_articles": 0,
+      "signal": "BULLISH",
+      "top_articles": [
+        {
+          "title": "Jobs to double, output to triple at KY factory set to make all glass for iPhones",
+          "summary": "Apple's $2.5 billion investment in Corning Inc.'s Harrodsburg, Kentucky facility will double jobs, triple output, and make it the sole manufacturer of glass for all iPhones and Apple Watches. This move is part of Apple's broader commitment to U.S. manufacturing, aiming to create more American jobs and reduce reliance on foreign production. The expansion also includes a new Apple-Corning Innovation Center for developing future product materials.",
+          "source": "Lexington Herald Leader",
+          "url": "https://www.kentucky.com/news/business/article317036396.html",
+          "time": "20260828T195950",
+          "overall_sentiment": "Bullish",
+          "ticker_score": 0.301158,
+          "ticker_label": "Somewhat-Bullish",
+          "relevance": 0.943507
+        },
+        {
+          "title": "Assurant: Mobile Trade-In Programs Return $1.43 Billion to Consumers in the second quarter",
+          "summary": "Mobile trade-in programs generated $1.43 billion for U.S. consumers in the second quarter of 2026, according to Assurant, Inc. The report highlights that iPhones traded in are now, on average, over four years old, and trade-in values are expanding beyond smartphones to include premium smartwatches like the Apple Watch Ultra 3. This trend indicates a consumer shift towards managing device costs and extending the life of their technology, with trade-ins playing a crucial role in making new devices affordable and supporting the refurbished market.",
+          "source": "MacTech.com",
+          "url": "https://www.mactech.com/2026/08/27/assurant-mobile-trade-in-programs-return-1-43-billion-to-consumers-in-the-second-quarter/",
+          "time": "20260828T030735",
+          "overall_sentiment": "Bullish",
+          "ticker_score": 0.347276,
+          "ticker_label": "Somewhat-Bullish",
+          "relevance": 0.715454
+        },
+        {
+          "title": "Assurant Reports Mobile Trade-In Programs Return $1.43 Billion to Consumers in Q2 2026 as Smartphones Reach Four-Year Upgrade Milestone",
+          "summary": "Assurant's Q2 2026 report reveals that mobile trade-in programs returned $1.43 billion to U.S. consumers, as the average age of traded-in iPhones exceeded four years for the first time. This trend highlights consumers' efforts to offset upgrade costs and extend the value of their devices, with strong demand for refurbished smartphones supporting healthy trade-in values. The company emphasizes the role of trade-in programs in making newer devices more affordable and contributing to a robust secondary market.",
+          "source": "Business Wire",
+          "url": "https://www.businesswire.com/news/home/20260827717191/en/Assurant-Reports-Mobile-Trade-In-Programs-Return-%241.43-Billion-to-Consumers-in-Q2-2026-as-Smartphones-Reach-Four-Year-Upgrade-Milestone",
+          "time": "20260828T030735",
+          "overall_sentiment": "Bullish",
+          "ticker_score": 0.303,
+          "ticker_label": "Somewhat-Bullish",
+          "relevance": 0.715153
+        },
+        {
+          "title": "Roundhill Ball Metaverse ETF (METV) holdings",
+          "summary": "This article provides details on the Roundhill Ball Metaverse ETF (METV) holdings as of August 14th, including its top 10 holdings, sector weightings, and overall portfolio composition. The ETF aims to track companies involved in the Metaverse, with a significant allocation to technology and communication services. It also lists key financial metrics and related tickers.",
+          "source": "Yahoo Finance Australia",
+          "url": "https://au.finance.yahoo.com/quote/METV/holdings/",
+          "time": "20260828T004205",
+          "overall_sentiment": "Neutral",
+          "ticker_score": 0.127001,
+          "ticker_label": "Neutral",
+          "relevance": 0.941139
+        },
+        {
+          "title": "MML VIP Franklin Templeton Equity Fund's Apple Inc(AAPL) Holding History",
+          "summary": "The article details the MML VIP Franklin Templeton Equity Fund's historical holdings in Apple Inc (AAPL) as of June 30, 2026. The fund holds 86,900 shares of AAPL valued at $25.15 million, representing 2.66% of its portfolio. Since its initial trade in Q3 2019, the fund has made two purchases and four sales, resulting in an estimated gain of $8.58 million, or 19.21%.",
+          "source": "GuruFocus",
+          "url": "https://www.gurufocus.com/guru-portfolio/MML%20VIP%20Franklin%20Templeton%20Equity%20Fund/AAPL",
+          "time": "20260827T214216",
+          "overall_sentiment": "Somewhat-Bullish",
+          "ticker_score": 0.313901,
+          "ticker_label": "Somewhat-Bullish",
+          "relevance": 0.938269
+        }
+      ]
+    },
+    {
+      "symbol": "AMD",
+      "article_count": 50,
+      "avg_sentiment": 0.21518041999999998,
+      "positive_articles": 48,
+      "negative_articles": 2,
+      "neutral_articles": 0,
+      "signal": "BULLISH",
+      "top_articles": [
+        {
+          "title": "Man Group plc Takes $16.56 Million Position in Take-Two Interactive Software, Inc. $TTWO",
+          "summary": "Man Group plc has acquired a new position of 66,242 shares in Take-Two Interactive Software, Inc. (TTWO), valued at approximately $16.56 million, during the second quarter. This move comes as institutional investors and hedge funds collectively own 95.46% of the company's stock. Despite Take-Two missing EPS estimates for its latest quarter, analysts maintain a \"Moderate Buy\" rating with an average price target of $296.95, significantly above its current trading price.",
+          "source": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-man-group-plc-takes-1656-million-position-in-take-two-interactive-software-inc-ttwo-2026-08-28/",
+          "time": "20260828T233750",
+          "overall_sentiment": "Neutral",
+          "ticker_score": 0.125806,
+          "ticker_label": "Neutral",
+          "relevance": 0.553966
+        },
+        {
+          "title": "Glenview Trust Co Makes New Investment in Lockheed Martin Corporation $LMT",
+          "summary": "Glenview Trust Co. recently invested in Lockheed Martin Corporation (NYSE: LMT), acquiring 58,931 shares valued at approximately $35.6 million. Institutional investors now own 74.19% of the company, while analysts maintain a \"Hold\" rating with an average price target of $632.39. Lockheed Martin exceeded Q2 earnings and revenue expectations, reporting $7.94 EPS and $20.06 billion in revenue, and declared a quarterly dividend of $3.45 per share.",
+          "source": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-glenview-trust-co-makes-new-investment-in-lockheed-martin-corporation-lmt-2026-08-28/",
+          "time": "20260828T194450",
+          "overall_sentiment": "Somewhat-Bullish",
+          "ticker_score": 0.300683,
+          "ticker_label": "Somewhat-Bullish",
+          "relevance": 0.59241
+        },
+        {
+          "title": "Man Group plc Invests $13.25 Million in Hilton Worldwide Holdings Inc. $HLT",
+          "summary": "Man Group plc has acquired 40,085 shares of Hilton Worldwide Holdings Inc. (HLT) worth approximately $13.25 million during the second quarter, making it a new stakeholder. Hilton recently reported strong quarterly earnings, exceeding analyst estimates with an EPS of $2.29 and revenue up 6.5% year over year. The company also declared a quarterly dividend of $0.15 per share and has a \"Moderate Buy\" consensus rating from analysts with an average price target of $353.82.",
+          "source": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-man-group-plc-invests-1325-million-in-hilton-worldwide-holdings-inc-hlt-2026-08-28/",
+          "time": "20260828T184333",
+          "overall_sentiment": "Somewhat-Bullish",
+          "ticker_score": 0.107332,
+          "ticker_label": "Neutral",
+          "relevance": 0.636956
+        },
+        {
+          "title": "Dearborn Partners LLC Acquires New Shares in Republic Services, Inc. $RSG",
+          "summary": "Dearborn Partners LLC has acquired 140,994 shares of Republic Services, Inc. (RSG) valued at approximately $30 million, making it their 19th largest holding. This comes as Republic Services exceeded earnings expectations and increased its quarterly dividend. Institutional investors hold a significant portion of the stock, while analysts maintain a \"Moderate Buy\" consensus.",
+          "source": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-dearborn-partners-llc-acquires-new-shares-in-republic-services-inc-rsg-2026-08-28/",
+          "time": "20260828T152000",
+          "overall_sentiment": "Somewhat-Bullish",
+          "ticker_score": 0.205513,
+          "ticker_label": "Somewhat-Bullish",
+          "relevance": 0.668687
+        },
+        {
+          "title": "Analysts Have Conflicting Sentiments on These Technology Companies: Shift4 Payments (FOUR), CrowdStrike Holdings (CRWD) and Salesforce (CRM)",
+          "summary": "This article examines analyst sentiments for three technology companies: Shift4 Payments (FOUR), CrowdStrike Holdings (CRWD), and Salesforce (CRM). Shift4 Payments received a Hold rating from Truist Financial, while CrowdStrike Holdings and Salesforce both maintained Buy ratings from Cantor Fitzgerald. The article includes average price targets and analyst consensus ratings for each company, highlighting potential upsides.",
+          "source": "The Globe and Mail",
+          "url": "https://www.theglobeandmail.com/investing/markets/stocks/CRM/pressreleases/4310408/analysts-have-conflicting-sentiments-on-these-technology-companies-shift4-payments-four-crowdstrike-holdings-crwd-and-salesforce-crm/",
+          "time": "20260828T122704",
+          "overall_sentiment": "Bullish",
+          "ticker_score": 0.327586,
+          "ticker_label": "Somewhat-Bullish",
+          "relevance": 0.648094
+        }
+      ]
+    },
+    {
+      "symbol": "BAC",
+      "article_count": 50,
+      "avg_sentiment": 0.19036728,
+      "positive_articles": 48,
+      "negative_articles": 2,
+      "neutral_articles": 0,
+      "signal": "BULLISH",
+      "top_articles": [
+        {
+          "title": "Man Group plc Takes $6.46 Million Position in Bank of America Corporation $BAC",
+          "summary": "Man Group plc has acquired a new position in Bank of America Corporation, purchasing 123,981 shares valued at approximately $6.46 million during the second quarter. This move comes as several other institutional investors have also adjusted their holdings in Bank of America, which is rated \"Moderate Buy\" by analysts with an average price target of $64.08. The company recently increased its quarterly dividend to $0.32 per share and reported strong quarterly earnings, surpassing analyst estimates.",
+          "source": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-man-group-plc-takes-646-million-position-in-bank-of-america-corporation-bac-2026-08-30/",
+          "time": "20260830T092852",
+          "overall_sentiment": "Neutral",
+          "ticker_score": 0.116231,
+          "ticker_label": "Neutral",
+          "relevance": 1.0
+        },
+        {
+          "title": "United Capital Financial Advisors LLC Purchases 10,507 Shares of Bank of America Corporation $BAC",
+          "summary": "United Capital Financial Advisors LLC increased its stake in Bank of America (NYSE:BAC) by 4.0% in the second quarter, acquiring an additional 10,507 shares to own a total of 275,832 shares valued at $15.72 million. The article also highlights various other institutional investor activities, recent news impacting Bank of America, its financial performance, and analyst ratings. Bank of America recently announced an increased quarterly dividend of $0.32 per share.",
+          "source": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-united-capital-financial-advisors-llc-purchases-10507-shares-of-bank-of-america-corporation-bac-2026-08-30/",
+          "time": "20260830T092653",
+          "overall_sentiment": "Neutral",
+          "ticker_score": 0.093969,
+          "ticker_label": "Neutral",
+          "relevance": 1.0
+        },
+        {
+          "title": "Caisse de depot et placement du Quebec Invests $6.73 Million in Blackstone Inc. $BX",
+          "summary": "Caisse de depot et placement du Quebec has initiated a new position in Blackstone Inc. (NYSE:BX) by purchasing 57,200 shares worth approximately $6.73 million during the second quarter. This move is part of broader institutional investment activity, with other major firms like BlackRock Inc. and Morgan Stanley also holding significant stakes. Blackstone recently reported strong earnings, exceeding analyst expectations, and increased its quarterly dividend.",
+          "source": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-caisse-de-depot-et-placement-du-quebec-invests-673-million-in-blackstone-inc-bx-2026-08-30/",
+          "time": "20260830T084203",
+          "overall_sentiment": "Somewhat-Bullish",
+          "ticker_score": 0.209758,
+          "ticker_label": "Somewhat-Bullish",
+          "relevance": 0.58768
+        },
+        {
+          "title": "Bank OZK Purchases 11,161 Shares of Bank of America Corporation $BAC",
+          "summary": "Bank OZK increased its stake in Bank of America Corporation (NYSE:BAC) by 10.2% in the second quarter, acquiring an additional 11,161 shares to own a total of 120,468 shares valued at $6.864 million. The article also details other institutional investor activity, analyst ratings, Bank of America's recent earnings, and dividend increase. It further highlights key news stories impacting BAC, ranging from positive sentiment on AI initiatives to negative sentiment regarding regulatory challenges and executive departures.",
+          "source": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-bank-ozk-purchases-11161-shares-of-bank-of-america-corporation-bac-2026-08-30/",
+          "time": "20260830T075453",
+          "overall_sentiment": "Somewhat-Bullish",
+          "ticker_score": 0.233181,
+          "ticker_label": "Somewhat-Bullish",
+          "relevance": 1.0
+        },
+        {
+          "title": "Bank of America Corporation $BAC Stake Increased by Fulcrum Asset Management LLP",
+          "summary": "Fulcrum Asset Management LLP significantly increased its stake in Bank of America (NYSE:BAC) by 56.9% in the second quarter, bringing its total holdings to 87,717 shares valued at $5.1 million. This increase contributes to the 70.71% institutional and hedge fund ownership of BAC. The bank reported strong quarterly earnings, exceeding analyst expectations, and raised its quarterly dividend, despite facing potential risks from regulatory scrutiny and competitive pressures.",
+          "source": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-bank-of-america-corporation-bac-stake-increased-by-fulcrum-asset-management-llp-2026-08-30/",
+          "time": "20260830T075453",
+          "overall_sentiment": "Neutral",
+          "ticker_score": 0.299423,
+          "ticker_label": "Somewhat-Bullish",
+          "relevance": 0.990766
+        }
+      ]
+    },
+    {
+      "symbol": "LLY",
+      "article_count": 50,
+      "avg_sentiment": 0.1870853,
+      "positive_articles": 47,
+      "negative_articles": 3,
+      "neutral_articles": 0,
+      "signal": "BULLISH",
+      "top_articles": [
+        {
+          "title": "Bristol Myers Squibb (BMY) Unveils Five Year Camzyos Data At ESC Congress",
+          "summary": "Bristol Myers Squibb (BMY) presented five-year data for Camzyos at the European Society of Cardiology Congress, demonstrating sustained efficacy and consistent improvements for obstructive hypertrophic cardiomyopathy (oHCM) patients. Real-world evidence corroborated safety, aligning with clinical trials and solidifying Camzyos's position as a key cardiac myosin inhibitor. This data reinforces Bristol Myers Squibb's cardiovascular strategy and its ability to manage patent pressures with strong late-stage pipeline assets.",
+          "source": "Simply Wall Street",
+          "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nyse-bmy/bristol-myers-squibb/news/bristol-myers-squibb-bmy-unveils-five-year-camzyos-data-at-e",
+          "time": "20260829T210842",
+          "overall_sentiment": "Bullish",
+          "ticker_score": 0.316811,
+          "ticker_label": "Somewhat-Bullish",
+          "relevance": 0.615549
+        },
+        {
+          "title": "Incyte (INCY) Up 0.8% Since Last Earnings Report: Can It Continue?",
+          "summary": "Incyte (INCY) shares have risen 0.8% since its last earnings report, underperforming the S&P 500. The company reported strong Q2 2026 results with earnings and revenues beating estimates, driven by sales of Jakafi and Opzelura, leading to raised 2026 guidance. However, analyst estimates have trended downward, and the stock currently holds a Zacks Rank #3 (Hold).",
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/incyte-incy-0-8-since-153014870.html",
+          "time": "20260827T153000",
+          "overall_sentiment": "Bullish",
+          "ticker_score": 0.317805,
+          "ticker_label": "Somewhat-Bullish",
+          "relevance": 0.700959
+        },
+        {
+          "title": "Eli Lilly and Co Stock (LLY) Opened Down by 3.57% on Aug 26: Facts Behind the Movement",
+          "summary": "Eli Lilly and Co (LLY) stock opened down 3.57% on August 26, primarily due to investor profit-taking after a recent surge and growing concerns over reimbursement for obesity treatments. Despite this short-term pressure, the company maintains a strong competitive position and a positive long-term growth outlook in the cardiometabolic space. Key risks include employer coverage pushback, commercial hurdles for oral GLP-1 drugs, and European reimbursement pressures.",
+          "source": "TradingKey",
+          "url": "https://www.tradingkey.com/news/market-movers/262133341-market-movers-lly-20260826",
+          "time": "20260826T134700",
+          "overall_sentiment": "Somewhat-Bearish",
+          "ticker_score": -0.230275,
+          "ticker_label": "Somewhat-Bearish",
+          "relevance": 1.0
+        },
+        {
+          "title": "Capricor\u2019s DMD therapy still alive, Merck/Moderna\u2019s cancer vax shines, FDA\u2019s future revealed",
+          "summary": "The FDA has extended its review of Capricor Therapeutics' Duchenne muscular dystrophy cell therapy, while Merck and Moderna announced positive Phase 3 results for their mRNA-based cancer vaccine. Trump has nominated Heidi Overton as the new FDA commissioner, whose appointment is expected to impact psychedelics and new pain medications, but potentially negatively affect vaccines. Meanwhile, the oral obesity market is heating up with fierce competition between Novo Nordisk and Eli Lilly.",
+          "source": "BioSpace",
+          "url": "https://www.biospace.com/fda/capricors-dmd-therapy-still-alive-merck-modernas-cancer-vax-shines-fdas-future-revealed",
+          "time": "20260826T102731",
+          "overall_sentiment": "Bullish",
+          "ticker_score": 0.325867,
+          "ticker_label": "Somewhat-Bullish",
+          "relevance": 0.725501
+        },
+        {
+          "title": "3,677,824 Shares in CVS Health Corporation $CVS Purchased by Jupiter Topco LLC",
+          "summary": "Jupiter Topco LLC acquired a new stake of 3,677,824 shares in CVS Health Corporation (NYSE:CVS) during the second quarter, valued at approximately $380.46 million. Several other institutional investors also increased their holdings in CVS, with 80.66% of the stock now owned by institutional investors and hedge funds. CVS Health recently posted strong quarterly earnings, beating analyst estimates, and declared a quarterly dividend of $0.665 per share.",
+          "source": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-3677824-shares-in-cvs-health-corporation-cvs-purchased-by-jupiter-topco-llc-2026-08-26/",
+          "time": "20260826T102028",
+          "overall_sentiment": "Somewhat-Bullish",
+          "ticker_score": 0.209367,
+          "ticker_label": "Somewhat-Bullish",
+          "relevance": 0.596865
+        }
+      ]
+    },
+    {
+      "symbol": "PYPL",
+      "article_count": 50,
+      "avg_sentiment": 0.17604867999999996,
+      "positive_articles": 48,
+      "negative_articles": 2,
+      "neutral_articles": 0,
+      "signal": "BULLISH",
+      "top_articles": [
+        {
+          "title": "Legal & General Group Plc Takes Position in PayPal Holdings, Inc. $PYPL",
+          "summary": "Legal & General Group Plc has acquired a significant position in PayPal Holdings, Inc., purchasing over 6.5 million shares worth approximately $283.9 million in the second quarter. Despite this large investment, analysts generally maintain a cautious \"Hold\" rating on PayPal, with an average price target below the current share price. The company recently reported strong quarterly earnings, beating estimates, and declared a quarterly dividend.",
+          "source": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-legal-general-group-plc-takes-position-in-paypal-holdings-inc-pypl-2026-08-26/",
+          "time": "20260826T095100",
+          "overall_sentiment": "Neutral",
+          "ticker_score": 0.112164,
+          "ticker_label": "Neutral",
+          "relevance": 1.0
+        },
+        {
+          "title": "9,775,170 Shares in PayPal Holdings, Inc. $PYPL Purchased by Primecap Management Co. CA",
+          "summary": "Primecap Management Co. CA has acquired a significant new stake of 9,775,170 shares in PayPal Holdings, Inc. ($PYPL), valued at approximately $422.1 million, making them a 1.14% owner of the company. This comes as PayPal exceeded its quarterly earnings and revenue expectations, reporting $1.38 EPS and $8.68 billion in revenue. Despite positive financial results and a declared dividend, analyst sentiment remains cautious with a consensus \"Hold\" rating.",
+          "source": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-9775170-shares-in-paypal-holdings-inc-pypl-purchased-by-primecap-management-co-ca-2026-08-26/",
+          "time": "20260826T093910",
+          "overall_sentiment": "Somewhat-Bullish",
+          "ticker_score": 0.225674,
+          "ticker_label": "Somewhat-Bullish",
+          "relevance": 1.0
+        },
+        {
+          "title": "Canada Pension Plan Investment Board Takes Position in PayPal Holdings, Inc. $PYPL",
+          "summary": "The Canada Pension Plan Investment Board (CPPIB) recently acquired a significant position in PayPal Holdings, Inc. (NASDAQ:PYPL), purchasing nearly 5 million shares valued at approximately $214.5 million. This move is part of a broader trend of institutional investors increasing their stakes in PayPal, with hedge funds and other institutions now owning 68.32% of the company. Despite mixed analyst sentiment, PayPal exceeded its recent quarterly earnings expectations, reporting $1.38 EPS and $8.68 billion in revenue, and declared a quarterly dividend.",
+          "source": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-canada-pension-plan-investment-board-takes-position-in-paypal-holdings-inc-pypl-2026-08-26/",
+          "time": "20260826T082953",
+          "overall_sentiment": "Somewhat-Bullish",
+          "ticker_score": 0.286548,
+          "ticker_label": "Somewhat-Bullish",
+          "relevance": 1.0
+        },
+        {
+          "title": "Cibc World Market Inc. Takes Position in PayPal Holdings, Inc. $PYPL",
+          "summary": "Cibc World Market Inc. has acquired a new stake of 149,977 shares in PayPal Holdings, Inc. worth approximately $6.5 million during the second quarter. Institutional investors now collectively own 68.32% of PayPal. The company reported strong Q2 earnings, beating EPS estimates, and declared a quarterly dividend of $0.14 per share, despite some insider selling and a consensus \"Hold\" rating from analysts with an average price target below the current trading price.",
+          "source": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-cibc-world-market-inc-takes-position-in-paypal-holdings-inc-pypl-2026-08-26/",
+          "time": "20260826T082553",
+          "overall_sentiment": "Somewhat-Bullish",
+          "ticker_score": 0.197609,
+          "ticker_label": "Somewhat-Bullish",
+          "relevance": 1.0
+        },
+        {
+          "title": "Price to earnings forward of PayPal Holdings, Inc. \u2013 NASDAQ:PYPL",
+          "summary": "This article provides the \"Price to earnings forward\" value for PayPal Holdings, Inc. (NASDAQ: PYPL). It appears to be a financial data point presented within the TradingView platform, noting the period, value, and change. The content primarily consists of navigation and platform-related information surrounding this single data point.",
+          "source": "TradingView",
+          "url": "https://www.tradingview.com/symbols/NASDAQ-PYPL/financials-statistics-and-ratios/price-earnings-fwd/",
+          "time": "20260825T183929",
+          "overall_sentiment": "Neutral",
+          "ticker_score": 0.017215,
+          "ticker_label": "Neutral",
+          "relevance": 1.0
+        }
+      ]
+    },
+    {
+      "symbol": "ADBE",
+      "article_count": 50,
+      "avg_sentiment": 0.17581356,
+      "positive_articles": 45,
+      "negative_articles": 5,
+      "neutral_articles": 0,
+      "signal": "BULLISH",
+      "top_articles": [
+        {
+          "title": "Adobe Inc. Tokenized Stock (Robinhood) Analytics",
+          "summary": "This page provides analytics for Adobe Inc. Tokenized Stock (Robinhood) (ADBE), detailing its price dynamics, quarterly closing prices, monthly returns, and annual price changes in USD. It includes performance data over various periods, such as 24-hour, 7-day, 14-day, 30-day, 3-month, 6-month, year-to-date, 1-year, and 3-year changes. The current price of ADBE is listed as $294.59, showing a 4.01% increase.",
+          "source": "CryptoRank",
+          "url": "https://cryptorank.io/price/adobe-inc-tokenized-stock-robinhood/analytics",
+          "time": "20260830T034030",
+          "overall_sentiment": "Somewhat-Bullish",
+          "ticker_score": 0.29494,
+          "ticker_label": "Somewhat-Bullish",
+          "relevance": 1.0
+        },
+        {
+          "title": "Adobe Inc. Tokenized Stock (Robinhood) to Euro Price Today | Live ADBE to EUR Converter & Exchange Rate",
+          "summary": "This article provides real-time exchange rates and historical data for Adobe Inc. Tokenized Stock (Robinhood) (ADBE) against the Euro (EUR). It includes current price, 24-hour and 30-day price fluctuations, market capitalization, supply details, and a 7-day price history. The page also features a converter tool and answers frequently asked questions about ADBE to EUR conversion.",
+          "source": "CryptoRank",
+          "url": "https://cryptorank.io/price/adobe-inc-tokenized-stock-robinhood/eur",
+          "time": "20260829T164030",
+          "overall_sentiment": "Neutral",
+          "ticker_score": 0.01862,
+          "ticker_label": "Neutral",
+          "relevance": 1.0
+        },
+        {
+          "title": "Snowflake, Varonis Systems, Fastly, Adobe, and DocuSign Stocks Trade Up, What You Need To Know",
+          "summary": "Several enterprise software and SaaS stocks, including Snowflake, Varonis Systems, Fastly, Adobe, and DocuSign, experienced significant jumps following positive quarterly earnings and corporate commentary. The surge alleviated investor concerns about AI disrupting traditional software platforms, instead highlighting generative AI as a growth catalyst. Salesforce, CrowdStrike, and Okta were cited as examples of companies successfully leveraging AI to expand product capabilities and drive monetization.",
+          "source": "Barchart.com",
+          "url": "https://www.barchart.com/story/news/4246112/snowflake-varonis-systems-fastly-adobe-and-docusign-stocks-trade-up-what-you-need-to-know",
+          "time": "20260828T164030",
+          "overall_sentiment": "Bullish",
+          "ticker_score": 0.383257,
+          "ticker_label": "Bullish",
+          "relevance": 0.929643
+        },
+        {
+          "title": "Adobe Inc. supports digital and creative skill building at UT San Antonio",
+          "summary": "Adobe Inc. has provided a $125,000 gift to the University of Texas at San Antonio to enhance digital and creative skill-building across six high-enrollment undergraduate courses, benefiting over 11,000 students annually. This funding will support course redesigns to incorporate hands-on assignments, affordable learning materials, and digital tools like Adobe Express and generative AI. The investment reinforces Adobe's ongoing partnership with UT San Antonio, which is already an Adobe Creative Campus providing access to Adobe Creative Cloud.",
+          "source": "UT San Antonio Today",
+          "url": "https://news.utsa.edu/2026/08/adobe-inc-supports-digital-and-creative-skill-building-at-ut-san-antonio/",
+          "time": "20260828T164030",
+          "overall_sentiment": "Bullish",
+          "ticker_score": 0.428388,
+          "ticker_label": "Bullish",
+          "relevance": 1.0
+        },
+        {
+          "title": "Snowflake, Varonis Systems, Fastly, Adobe, and DocuSign Stocks Trade Up, What You Need To Know",
+          "summary": "Shares of Snowflake, Varonis Systems, Fastly, Adobe, and DocuSign rose significantly after quarterly earnings and corporate commentary indicated that AI is driving growth in enterprise software rather than posing a threat. The sector-wide surge alleviated investor concerns about AI disrupting traditional software platforms, with companies like Salesforce, CrowdStrike, and Okta demonstrating how generative AI acts as a catalyst for software adoption and monetization. Varonis Systems, despite its recent gains, is still trading below its 52-week high, and investors who bought shares five years ago would have seen a decline in value.",
+          "source": "StockStory",
+          "url": "https://stockstory.org/us/stocks/nyse/snow/news/why-up-down/snowflake-varonis-systems-fastly-adobe-and-docusign-stocks-trade-up-what-you-need-to-know",
+          "time": "20260827T205330",
+          "overall_sentiment": "Somewhat-Bullish",
+          "ticker_score": 0.257007,
+          "ticker_label": "Somewhat-Bullish",
+          "relevance": 1.0
+        }
+      ]
+    },
+    {
+      "symbol": "NVDA",
+      "article_count": 50,
+      "avg_sentiment": 0.16399039999999998,
+      "positive_articles": 43,
+      "negative_articles": 7,
+      "neutral_articles": 0,
+      "signal": "BULLISH",
+      "top_articles": [
+        {
+          "title": "Capital Advisors Inc. OK Acquires 87,885 Shares of Blackstone Inc. $BX",
+          "summary": "Capital Advisors Inc. OK increased its stake in Blackstone Inc. by 35.2% in the second quarter, purchasing 87,885 additional shares to bring its total holdings to 337,510 shares valued at approximately $39.7 million. Institutional investors now own 70% of Blackstone's stock. The company recently reported strong quarterly earnings of $1.52 per share, exceeding estimates, with revenue rising 35.9% year over year, and analysts maintain a \"Moderate Buy\" consensus rating for the stock.",
+          "source": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-capital-advisors-inc-ok-acquires-87885-shares-of-blackstone-inc-bx-2026-08-30/",
+          "time": "20260830T084202",
+          "overall_sentiment": "Somewhat-Bullish",
+          "ticker_score": 0.115313,
+          "ticker_label": "Neutral",
+          "relevance": 0.58988
+        },
+        {
+          "title": "510,452 Shares in Gen Digital Inc. $GEN Bought by Empowered Funds LLC",
+          "summary": "Empowered Funds LLC recently acquired a new stake of 510,452 shares in Gen Digital Inc. (NASDAQ:GEN), valued at approximately $12.7 million, representing a 0.09% ownership. This comes as Gen Digital reported strong quarterly earnings, beating estimates with $0.71 EPS and a 6.3% increase in revenue year-over-year. Institutional investors now collectively own 81.38% of the company, which also recently declared a quarterly dividend of $0.125 per share.",
+          "source": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-510452-shares-in-gen-digital-inc-gen-bought-by-empowered-funds-llc-2026-08-29/",
+          "time": "20260829T092921",
+          "overall_sentiment": "Somewhat-Bullish",
+          "ticker_score": 0.123624,
+          "ticker_label": "Neutral",
+          "relevance": 0.634333
+        },
+        {
+          "title": "Analysts Are Bullish on Top Communication Services Stocks: Meta Platforms (META), Take-Two (TTWO)",
+          "summary": "Two analysts have issued bullish reports on major Communication Services stocks. Justin Post from Bank of America Securities reiterated a Buy rating for Meta Platforms (META), projecting a 30% upside. Doug Creutz from TD Cowen also maintained a Buy rating for Take-Two (TTWO), with a target price indicating a 25% upside.",
+          "source": "The Globe and Mail",
+          "url": "https://www.theglobeandmail.com/investing/markets/stocks/META/pressreleases/4327698/analysts-are-bullish-on-top-communication-services-stocks-meta-platforms-meta-take-two-ttwo/",
+          "time": "20260829T014700",
+          "overall_sentiment": "Bullish",
+          "ticker_score": 0.217857,
+          "ticker_label": "Somewhat-Bullish",
+          "relevance": 0.633246
+        },
+        {
+          "title": "Texas Instruments Inc Stock (TXN) Moved Down by 3.16% on Aug 28: Drivers Behind the Movement",
+          "summary": "Texas Instruments Inc (TXN) stock declined by 3.16% due to broad-based profit-taking across the technology sector and concerns over heavy capital expenditures for manufacturing capacity expansion weighing on near-term cash flow. Technical analysis shows a MACD sell signal and an oversold Williams %R, while fundamental analysis highlights risks such as lagged price hike implementation and high valuation multiples. Despite long-term competitive advantages, the company faces scrutiny over its capital-intensive investments and mixed macroeconomic signals.",
+          "source": "TradingKey",
+          "url": "https://www.tradingkey.com/news/market-movers/262139076-market-movers-txn-20260828",
+          "time": "20260828T161500",
+          "overall_sentiment": "Bearish",
+          "ticker_score": -0.447895,
+          "ticker_label": "Bearish",
+          "relevance": 0.62503
+        },
+        {
+          "title": "Morgan Stanley Tweaks Marvell Price Target After Earnings",
+          "summary": "Morgan Stanley raised its price target for Marvell Technology (MRVL) to $246 from $224, following the chipmaker's improved long-term data-center growth outlook of 60%. Despite the increased target and strong fundamentals, the bank maintained an \"Equalweight\" rating, indicating valuation concerns. Investors are advised to monitor Marvell's ability to achieve its new growth forecast while maintaining gross margins, with further details expected at its October 6 Investor Day.",
+          "source": "TradingView",
+          "url": "https://www.tradingview.com/news/gurufocus:8705417e8094b:0-morgan-stanley-tweaks-marvell-price-target-after-earnings/",
+          "time": "20260828T135027",
+          "overall_sentiment": "Neutral",
+          "ticker_score": 0.124114,
+          "ticker_label": "Neutral",
+          "relevance": 0.627564
+        }
+      ]
+    },
+    {
+      "symbol": "JPM",
+      "article_count": 50,
+      "avg_sentiment": 0.15279955999999997,
+      "positive_articles": 43,
+      "negative_articles": 7,
+      "neutral_articles": 0,
+      "signal": "BULLISH",
+      "top_articles": [
+        {
+          "title": "Bank of America Corporation $BAC Stake Increased by Fulcrum Asset Management LLP",
+          "summary": "Fulcrum Asset Management LLP significantly increased its stake in Bank of America (NYSE:BAC) by 56.9% in the second quarter, bringing its total holdings to 87,717 shares valued at $5.1 million. This increase contributes to the 70.71% institutional and hedge fund ownership of BAC. The bank reported strong quarterly earnings, exceeding analyst expectations, and raised its quarterly dividend, despite facing potential risks from regulatory scrutiny and competitive pressures.",
+          "source": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-bank-of-america-corporation-bac-stake-increased-by-fulcrum-asset-management-llp-2026-08-30/",
+          "time": "20260830T075453",
+          "overall_sentiment": "Neutral",
+          "ticker_score": -0.319918,
+          "ticker_label": "Somewhat-Bearish",
+          "relevance": 0.609344
+        },
+        {
+          "title": "Bank of America Corp DE Has $3.79 Million Stock Holdings in Financial Institutions, Inc. $FISI",
+          "summary": "Bank of America Corp DE significantly increased its stake in Financial Institutions, Inc. (NASDAQ:FISI) by 101.3% in the first quarter, now holding 119,691 shares valued at $3.79 million. Other institutional investors like Royal Bank of Canada and Empowered Funds LLC also adjusted their holdings. Analysts have a \"Moderate Buy\" rating for FISI with a consensus target price of $45.00, following recent positive earnings results and a declared quarterly dividend.",
+          "source": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-bank-of-america-corp-de-has-379-million-stock-holdings-in-financial-institutions-inc-fisi-2026-08-30/",
+          "time": "20260830T075453",
+          "overall_sentiment": "Somewhat-Bullish",
+          "ticker_score": 0.155104,
+          "ticker_label": "Somewhat-Bullish",
+          "relevance": 0.608015
+        },
+        {
+          "title": "Glenview Trust Co Makes New Investment in Bank of America Corporation $BAC",
+          "summary": "Glenview Trust Co. has initiated a new position in Bank of America (BAC) by purchasing 397,356 shares valued at approximately $19.4 million during the second quarter. This move is part of broader institutional interest, with major firms like Norges Bank and Bank of New York Mellon also holding significant stakes. Analysts currently have a \"Moderate Buy\" consensus rating for BAC, with an average price target of $64.08, following better-than-expected quarterly results and a dividend increase.",
+          "source": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-glenview-trust-co-makes-new-investment-in-bank-of-america-corporation-bac-2026-08-30/",
+          "time": "20260830T075452",
+          "overall_sentiment": "Neutral",
+          "ticker_score": -0.322666,
+          "ticker_label": "Somewhat-Bearish",
+          "relevance": 0.605657
+        },
+        {
+          "title": "BlackRock Inc. Invests $84.46 Million in Kearny Financial $KRNY",
+          "summary": "BlackRock Inc. has significantly increased its stake in Kearny Financial, investing $84.46 million to acquire 8.93 million shares, representing a 13.79% ownership. This move comes as institutional investors collectively hold 71.01% of the company, with other major firms also boosting their positions. Kearny Financial has an average analyst rating of \"Moderate Buy\" with a $10.75 price target, and recently declared a quarterly dividend of $0.11 per share.",
+          "source": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-blackrock-inc-invests-8446-million-in-kearny-financial-krny-2026-08-30/",
+          "time": "20260830T072510",
+          "overall_sentiment": "Somewhat-Bullish",
+          "ticker_score": 0.244848,
+          "ticker_label": "Somewhat-Bullish",
+          "relevance": 0.639802
+        },
+        {
+          "title": "Jefferies Financial Group Inc. Invests $2.89 Million in Essex Property Trust, Inc. $ESS",
+          "summary": "Jefferies Financial Group Inc. recently acquired a new stake of 9,909 shares, valued at approximately $2.89 million, in Essex Property Trust, Inc. This investment highlights continued institutional interest, with BlackRock Inc., Geode Capital Management LLC, and Principal Financial Group Inc. also holding significant positions. Essex Property Trust reported strong quarterly earnings, beating analyst estimates, and provided positive guidance for future quarters, leading to a consensus \"Moderate Buy\" rating among analysts.",
+          "source": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-jefferies-financial-group-inc-invests-289-million-in-essex-property-trust-inc-ess-2026-08-29/",
+          "time": "20260829T144140",
+          "overall_sentiment": "Somewhat-Bullish",
+          "ticker_score": 0.108023,
+          "ticker_label": "Neutral",
+          "relevance": 0.609066
+        }
+      ]
+    },
+    {
+      "symbol": "META",
+      "article_count": 50,
+      "avg_sentiment": 0.1279573,
+      "positive_articles": 40,
+      "negative_articles": 10,
+      "neutral_articles": 0,
+      "signal": "BULLISH",
+      "top_articles": [
+        {
+          "title": "Tougher U.S. Solar Rules And Incentives Might Change The Case For Investing In First Solar (FSLR)",
+          "summary": "First Solar has recently benefited from strengthened U.S. policy incentives and tighter restrictions on foreign entities, enhancing demand for domestically produced solar modules. This policy shift has improved First Solar's competitive position and could lead to stronger long-term contract terms and pricing power. While the company's 2026 guidance remains strong, the sustainability of its volumes and margins hinges on the continued support of this policy backdrop.",
+          "source": "Simply Wall Street",
+          "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-fslr/first-solar/news/tougher-us-solar-rules-and-incentives-might-change-the-case",
+          "time": "20260830T054641",
+          "overall_sentiment": "Neutral",
+          "ticker_score": -0.145153,
+          "ticker_label": "Neutral",
+          "relevance": 0.621316
+        },
+        {
+          "title": "JPMorgan Chase (JPM) Faces Fresh Regulatory Scrutiny, Is It Still Below Fair Value?",
+          "summary": "JPMorgan Chase (JPM) is facing renewed regulatory scrutiny, including debates over capital rules, an SEC probe, and legal challenges. Despite recent stock performance and a diversified business model, concerns about tighter capital rules and fintech competition persist. While a narrative suggests JPM is 4.3% undervalued, trading at a P/E of 14.9x suggests less obvious room for re-rating compared to industry averages.",
+          "source": "Simply Wall Street",
+          "url": "https://simplywall.st/stocks/us/banks/nyse-jpm/jpmorgan-chase/news/jpmorgan-chase-jpm-faces-fresh-regulatory-scrutiny-is-it-sti",
+          "time": "20260829T054755",
+          "overall_sentiment": "Neutral",
+          "ticker_score": -0.141518,
+          "ticker_label": "Neutral",
+          "relevance": 0.620214
+        },
+        {
+          "title": "Analysts Are Bullish on Top Communication Services Stocks: Meta Platforms (META), Take-Two (TTWO)",
+          "summary": "Two analysts have issued bullish reports on major Communication Services stocks. Justin Post from Bank of America Securities reiterated a Buy rating for Meta Platforms (META), projecting a 30% upside. Doug Creutz from TD Cowen also maintained a Buy rating for Take-Two (TTWO), with a target price indicating a 25% upside.",
+          "source": "The Globe and Mail",
+          "url": "https://www.theglobeandmail.com/investing/markets/stocks/META/pressreleases/4327698/analysts-are-bullish-on-top-communication-services-stocks-meta-platforms-meta-take-two-ttwo/",
+          "time": "20260829T014700",
+          "overall_sentiment": "Bullish",
+          "ticker_score": 0.840994,
+          "ticker_label": "Bullish",
+          "relevance": 1.0
+        },
+        {
+          "title": "J.P. Morgan Keeps Their Hold Rating on Meta Platforms (META)",
+          "summary": "J.P. Morgan analyst Doug Anmuth maintained a Hold rating on Meta Platforms (META) with a $640.00 price target. This rating comes despite other analysts offering varying recommendations, with Needham also issuing a Hold and KeyBanc maintaining a Buy rating on the stock. Meta Platforms reported quarterly revenue of $60.8 billion and a net profit of $15.85 billion for the quarter ending June 30.",
+          "source": "The Globe and Mail",
+          "url": "https://www.theglobeandmail.com/investing/markets/stocks/META-Q/pressreleases/4324336/j-p-morgan-keeps-their-hold-rating-on-meta-platforms-meta/",
+          "time": "20260829T014700",
+          "overall_sentiment": "Neutral",
+          "ticker_score": 0.087179,
+          "ticker_label": "Neutral",
+          "relevance": 0.960793
+        },
+        {
+          "title": "Broadridge Financial Solutions (BR) Beats On Q4 Sales, Is It Still 14% Below Fair Value?",
+          "summary": "Broadridge Financial Solutions (BR) reported better-than-expected Q4 results, showing strong sales and an improved backlog. Despite a recent share price slide, the company is considered 13.6% undervalued with a fair value of $212 per share, driven by its leadership in financial transaction processing, recurring revenue, and margin resilience. However, the report also notes potential risks from softer event-driven revenues and longer sales cycles.",
+          "source": "Simply Wall Street",
+          "url": "https://simplywall.st/stocks/us/commercial-services/nyse-br/broadridge-financial-solutions/news/broadridge-financial-solutions-br-beats-on-q4-sales-is-it-st",
+          "time": "20260828T213915",
+          "overall_sentiment": "Neutral",
+          "ticker_score": -0.22983,
+          "ticker_label": "Somewhat-Bearish",
+          "relevance": 0.602475
+        }
+      ]
+    },
+    {
+      "symbol": "GS",
+      "article_count": 50,
+      "avg_sentiment": 0.12083044000000003,
+      "positive_articles": 43,
+      "negative_articles": 7,
+      "neutral_articles": 0,
+      "signal": "BULLISH",
+      "top_articles": [
+        {
+          "title": "Private Management Group Inc. Purchases 133,415 Shares of Global Payments Inc. $GPN",
+          "summary": "Private Management Group Inc. increased its stake in Global Payments Inc. by 27.9% in the second quarter, purchasing an additional 133,415 shares, bringing its total holdings to 612,322 shares valued at approximately $44.4 million. Global Payments (NYSE: GPN) reported strong quarterly earnings, beating analyst estimates with $3.46 adjusted EPS and $3.16 billion in revenue, a 68.6% year-over-year increase. The company also declared a quarterly dividend of $0.25, contributing to an annualized payout of $1.00 and a 1.1% yield, while analysts maintain a \"Hold\" rating with an average price target of $92.36.",
+          "source": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-private-management-group-inc-purchases-133415-shares-of-global-payments-inc-gpn-2026-08-30/",
+          "time": "20260830T111354",
+          "overall_sentiment": "Neutral",
+          "ticker_score": 0.137976,
+          "ticker_label": "Neutral",
+          "relevance": 0.635991
+        },
+        {
+          "title": "Jefferies Financial Group Inc. Makes New $3.64 Million Investment in Lennox International, Inc. $LII",
+          "summary": "Jefferies Financial Group Inc. has made a new investment of $3.64 million in Lennox International, Inc., acquiring 6,360 shares. Other major institutions like BlackRock, Bank of America, and Deutsche Bank also initiated positions, bringing institutional ownership to 67.07%. Lennox International reported strong quarterly EPS and revenue, maintaining its fiscal 2026 EPS guidance despite a mixed analyst sentiment and some lowered price targets.",
+          "source": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-jefferies-financial-group-inc-makes-new-364-million-investment-in-lennox-international-inc-lii-2026-08-29/",
+          "time": "20260829T100225",
+          "overall_sentiment": "Neutral",
+          "ticker_score": 0.138501,
+          "ticker_label": "Neutral",
+          "relevance": 0.584713
+        },
+        {
+          "title": "JPMorgan Chase & Co. $JPM Shares Acquired by Nicholson Wealth Management Group LLC",
+          "summary": "Nicholson Wealth Management Group LLC significantly increased its holdings in JPMorgan Chase & Co. (NYSE:JPM) by 175.2% in the second quarter, making JPM its 18th largest position. Other institutional investors also adjusted their stakes, while two insiders sold shares in separate transactions. Analysts currently have a \"Moderate Buy\" consensus rating for JPMorgan Chase & Co., with a target price of $359.96.",
+          "source": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-jpmorgan-chase-co-jpm-shares-acquired-by-nicholson-wealth-management-group-llc-2026-08-29/",
+          "time": "20260829T084755",
+          "overall_sentiment": "Neutral",
+          "ticker_score": 0.103033,
+          "ticker_label": "Neutral",
+          "relevance": 0.648101
+        },
+        {
+          "title": "Volatility is no longer the exception",
+          "summary": "This J.P. Morgan report highlights that market volatility has become the new normal due to geopolitical fragmentation, commodity disruptions, and increased retail participation. Institutional traders are adapting by leveraging technology, data, and analytics for faster responses and better risk management. The report also notes a shift in asset allocation strategies, with gold acting as a de-dollarization hedge and increased use of quantitative investment strategies.",
+          "source": "J.P. Morgan",
+          "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/the-certainty-of-uncertainty",
+          "time": "20260828T154755",
+          "overall_sentiment": "Somewhat-Bullish",
+          "ticker_score": 0.124499,
+          "ticker_label": "Neutral",
+          "relevance": 0.556165
+        },
+        {
+          "title": "Glenview Trust Co Makes New Investment in Chubb Limited $CB",
+          "summary": "Glenview Trust Co. recently purchased 32,714 shares of Chubb Limited (NYSE:CB) worth approximately $11.1 million, joining other institutional investors who collectively own 83.81% of the stock. Chubb reported strong quarterly earnings of $7.26 EPS, exceeding estimates, and declared a quarterly dividend of $1.02. Despite positive institutional interest and earnings, analyst sentiment remains mixed with a \"Hold\" rating, and recent insider transactions show executives selling shares.",
+          "source": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-glenview-trust-co-makes-new-investment-in-chubb-limited-cb-2026-08-28/",
+          "time": "20260828T104224",
+          "overall_sentiment": "Neutral",
+          "ticker_score": 0.139495,
+          "ticker_label": "Neutral",
+          "relevance": 0.603491
+        }
+      ]
+    },
+    {
+      "symbol": "UNH",
+      "article_count": 50,
+      "avg_sentiment": 0.11998213999999997,
+      "positive_articles": 40,
+      "negative_articles": 10,
+      "neutral_articles": 0,
+      "signal": "BULLISH",
+      "top_articles": [
+        {
+          "title": "UnitedHealth Group stock slips after earnings and guidance",
+          "summary": "UnitedHealth Group's stock experienced a slip despite reporting strong second-quarter earnings that surpassed analyst expectations, with EPS of $6.38 on revenue of $112.03 billion. The company maintained its fiscal 2026 EPS guidance, leaving investors to weigh its operational performance against market consensus. The stock's current valuation places it between near-term momentum and longer-term trend support, with analysts focusing on future execution.",
+          "source": "AD HOC NEWS",
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/unitedhealth-group-stock-slips-after-earnings-and-guidance/70018195",
+          "time": "20260829T071900",
+          "overall_sentiment": "Somewhat-Bearish",
+          "ticker_score": -0.214253,
+          "ticker_label": "Somewhat-Bearish",
+          "relevance": 1.0
+        },
+        {
+          "title": "Can Cigna's Smart Coverage Help Close Health-Cost Gaps?",
+          "summary": "Cigna's health benefits arm, Cigna Healthcare, is launching a new \"Medical with Smart Coverage\" option and \"Simple File Sync Plus\" to integrate medical and supplemental health benefits. This initiative aims to make cash support for costly health events easier to access and streamline claims processes, particularly for high-deductible health plans. The move is designed to address affordability gaps in employer health coverage and boost enrollment in supplemental benefits, strengthening Cigna's market position against competitors like UnitedHealth Group and Elevance Health.",
+          "source": "The Globe and Mail",
+          "url": "https://www.theglobeandmail.com/investing/markets/stocks/UNH/pressreleases/4221084/can-cignas-smart-coverage-help-close-health-cost-gaps/",
+          "time": "20260828T005538",
+          "overall_sentiment": "Somewhat-Bullish",
+          "ticker_score": 0.273954,
+          "ticker_label": "Somewhat-Bullish",
+          "relevance": 0.734388
+        },
+        {
+          "title": "Maryland sues UnitedHealth Group and Optum Inc. over defective Medicaid computer system",
+          "summary": "Maryland is suing UnitedHealth Group and its subsidiary Optum Inc. for $380 million over a \"defective\" Medicaid computer system that crashed on its first day and had to be taken offline for months. According to Attorney General Anthony Brown, the system, intended for behavioral health services, failed to distinguish between necessary and frivolous services, denied legitimate claims, and allowed fraud. Optum denies the allegations, stating the lawsuit fails to account for the program's complexities and their significant investment.",
+          "source": "CBS News",
+          "url": "https://www.cbsnews.com/baltimore/news/maryland-sues-unitedhealth-and-optum-defective-medicaid-computer-system/",
+          "time": "20260827T215133",
+          "overall_sentiment": "Bearish",
+          "ticker_score": -0.748012,
+          "ticker_label": "Bearish",
+          "relevance": 1.0
+        },
+        {
+          "title": "AG Brown sues United Healthcare, Optum for defrauding Maryland Medicaid Program",
+          "summary": "Maryland Attorney General Anthony Brown has filed a lawsuit against UnitedHealth Group and Optum, Inc., alleging they defrauded the Maryland Medicaid Program by providing a defective computer system. The system, intended for the state's behavioral health program, crashed upon its launch and allegedly never functioned correctly, leading to tens of millions of dollars in costs for taxpayers. The lawsuit seeks approximately $380 million in damages, alleging violations of the state False Claims Act, breach of contract, unjust enrichment, and intentional misrepresentation.",
+          "source": "WBFF",
+          "url": "https://foxbaltimore.com/news/local/attorney-general-brown-sues-united-healthcare-optum-defrauding-maryland-medicaid-program",
+          "time": "20260827T154100",
+          "overall_sentiment": "Bearish",
+          "ticker_score": -0.42877,
+          "ticker_label": "Bearish",
+          "relevance": 1.0
+        },
+        {
+          "title": "Redwood Investment Management LLC Invests $1.17 Million in HCA Healthcare, Inc. $HCA",
+          "summary": "Redwood Investment Management LLC recently acquired 3,010 shares of HCA Healthcare, valued at approximately $1.17 million, during the second quarter. HCA Healthcare exceeded analyst expectations with $7.59 EPS and $20.23 billion in revenue, also declaring a quarterly dividend of $0.78. Analysts have a \"Moderate Buy\" consensus for HCA Healthcare, with an average price target of $462.64.",
+          "source": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-redwood-investment-management-llc-invests-117-million-in-hca-healthcare-inc-hca-2026-08-27/",
+          "time": "20260827T104330",
+          "overall_sentiment": "Neutral",
+          "ticker_score": 0.035777,
+          "ticker_label": "Neutral",
+          "relevance": 0.564892
+        }
+      ]
+    },
+    {
+      "symbol": "ORCL",
+      "article_count": 50,
+      "avg_sentiment": 0.11787388000000001,
+      "positive_articles": 41,
+      "negative_articles": 9,
+      "neutral_articles": 0,
+      "signal": "BULLISH",
+      "top_articles": [
+        {
+          "title": "ServiceNow Inc Stock (NOW) Moved Up by 4.37% on Aug 28: Drivers Behind the Movement",
+          "summary": "ServiceNow Inc. (NOW) stock rose by 4.37% on August 28th, driven by a sector-wide positive re-rating in enterprise software, increased AI adoption, and strong financial performance. The company has seen rapid acceleration in AI annual contract value and deployments, leading to positive analyst sentiment and raised target prices. Despite high valuation multiples and potential AI disruption, ServiceNow's ability to combine top-line growth with AI efficiencies positions it strongly in institutional portfolios.",
+          "source": "TradingKey",
+          "url": "https://www.tradingkey.com/news/market-movers/262138961-market-movers-now-20260828",
+          "time": "20260828T153346",
+          "overall_sentiment": "Somewhat-Bullish",
+          "ticker_score": 0.13194,
+          "ticker_label": "Neutral",
+          "relevance": 0.562539
+        },
+        {
+          "title": "Oracle Corp Stock (ORCL) Opened Up by 4.55% on Aug 26: A Full Analysis",
+          "summary": "Oracle Corp (ORCL) stock opened up by 4.55% on August 26, driven by positive Wall Street commentary and institutional interest. Citi initiated a positive catalyst watch, citing an attractive entry point and robust demand for enterprise cloud infrastructure and AI workloads. Despite concerns about negative free cash flow and high capital expenditures for AI infrastructure, analysts maintain a positive outlook with an average price target of $252.87, and technical indicators suggest a buy signal for the stock.",
+          "source": "TradingKey",
+          "url": "https://www.tradingkey.com/news/market-movers/262133342-market-movers-orcl-20260826",
+          "time": "20260826T134713",
+          "overall_sentiment": "Somewhat-Bullish",
+          "ticker_score": 0.495123,
+          "ticker_label": "Bullish",
+          "relevance": 1.0
+        },
+        {
+          "title": "Dell, Oracle among market cap stock movers on Wednesday",
+          "summary": "The article reports on Wednesday's market activity, highlighting several stock movers across different market capitalization tiers. Dell Inc. and TTM Technologies saw rallies, while Dycom Industries, Moderna, and JinkoSolar Holding Co Ltd experienced declines due to various factors including earnings reports and market trends. The report categorizes these movers into mega-cap, large-cap, mid-cap, and small-cap segments, providing specific percentage changes for each company mentioned.",
+          "source": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/dell-oracle-among-market-cap-stock-movers-on-wednesday-93CH-4877503",
+          "time": "20260826T103500",
+          "overall_sentiment": "Somewhat-Bearish",
+          "ticker_score": -0.220683,
+          "ticker_label": "Somewhat-Bearish",
+          "relevance": 1.0
+        },
+        {
+          "title": "$POLESTAR AUTOMOTIVE HOLDING UK PLC SPON ADS C-1 EACH RP 30 CL C ORD (R/S) (PSNYW.US)$ never seen a level 2 weirder than this",
+          "summary": "A user on the moomoo Community platform commented on the stock of Polestar Automotive Holding UK PLC (PSNYW.US), noting unusual activity in its Level 2 data. The comment highlights a perceived anomaly in the stock's trading information, shared within the financial community.",
+          "source": "Moomoo",
+          "url": "https://www.moomoo.com/community/feed/polestar-automotive-holding-uk-plc-spon-ads-c-1-each-117160795963398",
+          "time": "20260826T074421",
+          "overall_sentiment": "Somewhat-Bullish",
+          "ticker_score": 0.283782,
+          "ticker_label": "Somewhat-Bullish",
+          "relevance": 0.611424
+        },
+        {
+          "title": "Is Zscaler\u2019s (ZS) SMB Zero Trust Push With Carahsoft a New Chapter in Its Growth Story?",
+          "summary": "Zscaler has expanded its partnership with Carahsoft Technology Corp. to offer its Zero Trust Exchange platform to U.S. SMB and mid-market segments, aiming to broaden its customer base beyond large enterprises. This move aligns with Zscaler's strategy to use channel partners and packaged Zero Trust offerings to reach underserved smaller organizations. The partnership could influence Zscaler's revenue growth, especially ahead of its September earnings release, though competition from larger cybersecurity vendors remains a significant risk.",
+          "source": "Simply Wall Street",
+          "url": "https://simplywall.st/stocks/us/software/nasdaq-zs/zscaler/news/is-zscalers-zs-smb-zero-trust-push-with-carahsoft-a-new-chap",
+          "time": "20260826T031418",
+          "overall_sentiment": "Neutral",
+          "ticker_score": -0.053507,
+          "ticker_label": "Neutral",
+          "relevance": 0.567443
+        }
+      ]
+    },
+    {
+      "symbol": "PFE",
+      "article_count": 50,
+      "avg_sentiment": 0.11727631999999996,
+      "positive_articles": 43,
+      "negative_articles": 7,
+      "neutral_articles": 0,
+      "signal": "BULLISH",
+      "top_articles": [
+        {
+          "title": "How Much Upside Is Left in JNJ Stock?",
+          "summary": "This article analyzes the potential upside for Johnson & Johnson (JNJ) stock by breaking down its 3-year performance drivers: revenue compounding, net margin trajectory, and P/E multiple. It suggests a modest 15% upside in a base case due to offsetting forces, but highlights how margin recovery or a resilient multiple could significantly increase this. The company's goal to become the number one oncology company by 2030 is identified as a key catalyst.",
+          "source": "Trefis",
+          "url": "https://www.trefis.com/stock/jnj/articles/612950/how-much-upside-is-left-in-jnj-stock/2026-08-26",
+          "time": "20260826T200106",
+          "overall_sentiment": "Neutral",
+          "ticker_score": -0.122344,
+          "ticker_label": "Neutral",
+          "relevance": 0.608714
+        },
+        {
+          "title": "Has AbbVie Stock Become Too Expensive to Buy?",
+          "summary": "AbbVie (ABBV) stock has seen a significant surge, climbing over 25% in the last three months and trading near its 52-week high, raising questions about its current valuation. While the company demonstrates strong financial performance with high operating margins and robust revenue growth driven by its immunology and neuroscience portfolios, its stock trades at a steep premium compared to the S&P 500. Investors are weighing its powerful business engine against its high price-to-earnings multiple and potential risks from competition and regulatory decisions.",
+          "source": "Trefis",
+          "url": "https://www.trefis.com/stock/abbv/articles/612952/has-abbvie-stock-become-too-expensive-to-buy/2026-08-26",
+          "time": "20260826T192301",
+          "overall_sentiment": "Neutral",
+          "ticker_score": 0.05634,
+          "ticker_label": "Neutral",
+          "relevance": 0.552676
+        },
+        {
+          "title": "Lotus Technology Management LP Invests $3.19 Million in Take-Two Interactive Software, Inc. $TTWO",
+          "summary": "Lotus Technology Management LP recently acquired a significant stake in Take-Two Interactive Software (NASDAQ:TTWO), purchasing 12,756 shares valued at approximately $3.19 million, making it their fifth-largest portfolio holding. Institutional investors collectively own 95.46% of the company, while analysts maintain a largely bullish outlook with an average \"Buy\" rating and a consensus price target of $296.95. Despite beating revenue estimates with $1.53 billion, Take-Two missed earnings expectations, reporting a loss of $0.18 per share.",
+          "source": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-lotus-technology-management-lp-invests-319-million-in-take-two-interactive-software-inc-ttwo-2026-08-26/",
+          "time": "20260826T111234",
+          "overall_sentiment": "Neutral",
+          "ticker_score": -0.128372,
+          "ticker_label": "Neutral",
+          "relevance": 0.570398
+        },
+        {
+          "title": "Bank of New York Mellon Corp Sells 7,805 Shares of Saia, Inc. $SAIA",
+          "summary": "Bank of New York Mellon Corp has reduced its stake in Saia, Inc. (NASDAQ:SAIA) by 4.5%, selling 7,805 shares and now owning 163,785 shares valued at $68.98 million. Other institutional investors have also adjusted their positions in Saia, with some increasing and others buying new stakes. Analysts currently give Saia a \"Moderate Buy\" rating with a consensus target price of $449.67.",
+          "source": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-bank-of-new-york-mellon-corp-sells-7805-shares-of-saia-inc-saia-2026-08-26/",
+          "time": "20260826T071255",
+          "overall_sentiment": "Neutral",
+          "ticker_score": 0.100214,
+          "ticker_label": "Neutral",
+          "relevance": 0.579965
+        },
+        {
+          "title": "Pfizer Is Back Near Its 52-Week High. Is It Too Late to Buy?",
+          "summary": "Pfizer (PFE) is trading near its 52-week high after a 12% gain this year, raising questions about whether the easy money has already been made. Despite strong Q2 results, increased revenue guidance, CEO stock purchase, and a nearly 6% dividend yield, the company faces projected revenue shrinkage as older drugs lose exclusivity and COVID revenue declines. The article explores whether the current price accounts for future growth driven by pipeline optionality, particularly in oncology and obesity, and highlights that a buyer at current levels primarily benefits from the dividend rather than significant share price appreciation.",
+          "source": "TIKR.com",
+          "url": "https://www.tikr.com/blog/pfizer-is-back-near-its-52-week-high-is-it-too-late-to-buy",
+          "time": "20260826T000906",
+          "overall_sentiment": "Neutral",
+          "ticker_score": 0.122735,
+          "ticker_label": "Neutral",
+          "relevance": 1.0
+        }
+      ]
+    },
+    {
+      "symbol": "AMZN",
+      "article_count": 50,
+      "avg_sentiment": 0.10899822,
+      "positive_articles": 39,
+      "negative_articles": 11,
+      "neutral_articles": 0,
+      "signal": "BULLISH",
+      "top_articles": [
+        {
+          "title": "Capital Advisors Inc. OK Acquires 87,885 Shares of Blackstone Inc. $BX",
+          "summary": "Capital Advisors Inc. OK increased its stake in Blackstone Inc. by 35.2% in the second quarter, purchasing 87,885 additional shares to bring its total holdings to 337,510 shares valued at approximately $39.7 million. Institutional investors now own 70% of Blackstone's stock. The company recently reported strong quarterly earnings of $1.52 per share, exceeding estimates, with revenue rising 35.9% year over year, and analysts maintain a \"Moderate Buy\" consensus rating for the stock.",
+          "source": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-capital-advisors-inc-ok-acquires-87885-shares-of-blackstone-inc-bx-2026-08-30/",
+          "time": "20260830T084202",
+          "overall_sentiment": "Somewhat-Bullish",
+          "ticker_score": 0.114468,
+          "ticker_label": "Neutral",
+          "relevance": 0.554627
+        },
+        {
+          "title": "Amazon Just Locked In More Power for Its AI Buildout",
+          "summary": "Amazon (AMZN) is significantly increasing its power supply by signing long-term contracts for electricity from four Swedish wind farms, adding approximately 200 megawatts to its operations. This move will bring Amazon's contracted Swedish electricity supply to over 1 gigawatt. The expansion is crucial for supporting Amazon Web Services (AWS) data centers and the growing demands of AI workloads, as the AI infrastructure race heavily relies on stable and massive quantities of electricity.",
+          "source": "TradingView",
+          "url": "https://www.tradingview.com/news/gurufocus:07936529b094b:0-amazon-just-locked-in-more-power-for-its-ai-buildout/",
+          "time": "20260828T170745",
+          "overall_sentiment": "Bullish",
+          "ticker_score": 0.403922,
+          "ticker_label": "Bullish",
+          "relevance": 1.0
+        },
+        {
+          "title": "Amazon.com Inc Stock (AMZN) Moved Up by 3.69% on Aug 28: A Full Analysis",
+          "summary": "Amazon.com Inc (AMZN) saw its stock price rise by 3.69% on August 28, driven by investor enthusiasm for AWS infrastructure expansion, strategic AI investments, and positive analyst commentary. The company's annual revenue was reported at $716.92 billion and net profit at $77.67 billion, ranking first in the Retailers industry. Analysts have reiterated buy ratings with an average price target of $320.08, despite risks like escalating capital expenditures and insider share dispositions.",
+          "source": "TradingKey",
+          "url": "https://www.tradingkey.com/news/market-movers/262138960-market-movers-amzn-20260828",
+          "time": "20260828T151500",
+          "overall_sentiment": "Somewhat-Bullish",
+          "ticker_score": 0.404272,
+          "ticker_label": "Bullish",
+          "relevance": 1.0
+        },
+        {
+          "title": "Dow's 175-Point Rally Highlighted By Gains In Amazon.Com Inc., Salesforce Stocks",
+          "summary": "The Dow Jones Industrial Average rose by 175 points, or 0.45%, to 38,983.41, with significant contributions from Amazon.Com Inc. and Salesforce stocks. Amazon reached a new 52-week high after a strong rally, while Salesforce also saw substantial gains following a recent stock split and positive analyst ratings. These performances occurred as the broader market reacted to various economic data, including unemployment claims and durable goods orders.",
+          "source": "Moomoo",
+          "url": "https://www.moomoo.com/news/post/75481071/dow-s-175-point-rally-highlighted-by-gains-in-amazoncom",
+          "time": "20260828T150745",
+          "overall_sentiment": "Bullish",
+          "ticker_score": 0.484631,
+          "ticker_label": "Bullish",
+          "relevance": 0.945944
+        },
+        {
+          "title": "Gen Digital stock hits 52-week high at 30.62 USD",
+          "summary": "Gen Digital Inc.'s stock reached a new 52-week high of $30.62, currently trading at $30.65 with a market capitalization of $18.26 billion. The company has shown significant momentum with a 36% return over the last six months and exceeded Wall Street forecasts for its fiscal first quarter, reporting adjusted earnings of $0.71 per share and revenue of $1.34 billion. InvestingPro analysis suggests the stock remains undervalued despite its recent gains.",
+          "source": "Investing.com",
+          "url": "https://www.investing.com/news/company-news/gen-digital-stock-hits-52week-high-at-3062-usd-93CH-4881423",
+          "time": "20260828T134603",
+          "overall_sentiment": "Somewhat-Bullish",
+          "ticker_score": 0.221281,
+          "ticker_label": "Somewhat-Bullish",
+          "relevance": 0.646659
+        }
+      ]
+    },
+    {
+      "symbol": "INTC",
+      "article_count": 50,
+      "avg_sentiment": 0.10761698000000003,
+      "positive_articles": 41,
+      "negative_articles": 9,
+      "neutral_articles": 0,
+      "signal": "BULLISH",
+      "top_articles": [
+        {
+          "title": "Autodesk Posts Strong Q2 Results, Raises 2027 Outlook",
+          "summary": "Autodesk reported strong financial results for Q2 fiscal 2027, with revenue increasing 16% year-over-year to $2.05 billion and operating margins expanding. The company raised its fiscal 2027 guidance and highlighted its AI-driven platform strategy, despite absorbing costs from the MaintainX acquisition. An analyst rating indicates a Buy with a $290.00 price target, and TipRanks\u2019 AI Analyst, Spark, rates ADSK as Outperform due to strong financials and raised guidance.",
+          "source": "TipRanks",
+          "url": "https://www.tipranks.com/news/company-announcements/autodesk-posts-strong-q2-results-raises-2027-outlook",
+          "time": "20260827T210657",
+          "overall_sentiment": "Somewhat-Bullish",
+          "ticker_score": 0.25697,
+          "ticker_label": "Somewhat-Bullish",
+          "relevance": 0.573339
+        },
+        {
+          "title": "Lam Research Breaks Ground on New Oregon Lab to Accelerate AI Era Semiconductor Research & Development Locally, Globally",
+          "summary": "Lam Research has broken ground on a new 120,000-square-foot R&D lab in Tualatin, Oregon, as part of a $3 billion investment over five years to expand its global lab network. This facility, located in the Silicon Forest, will increase cleanroom space by over 50% and accelerate the development of advanced AI chips through collaboration with customers. The project is expected to create 900 construction jobs, 400 new Lam jobs, and contribute over $1.8 billion annually to Oregon's economy upon completion in 2028.",
+          "source": "PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/lam-research-breaks-ground-on-new-oregon-lab-to-accelerate-ai-era-semiconductor-research--development-locally-globally-302860979.html",
+          "time": "20260827T103147",
+          "overall_sentiment": "Bullish",
+          "ticker_score": 0.42749,
+          "ticker_label": "Bullish",
+          "relevance": 0.702578
+        },
+        {
+          "title": "What Are Wall Street Analysts' Target Price for Jack Henry & Associates Stock?",
+          "summary": "Jack Henry & Associates (JKHY) has underperformed the broader market and the financial sector ETF over the past year, despite a recent 6.5% climb following better-than-expected Q4 2026 results. Analysts maintain a \"Moderate Buy\" consensus rating, with a mean price target of $187.94, suggesting a 9% upside, and a Street-high target of $215, indicating a 24.7% potential increase. The company's EPS is projected to grow by 5.7% in fiscal year 2027, and it has consistently beaten earnings estimates.",
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-target-price-131928496.html",
+          "time": "20260827T061900",
+          "overall_sentiment": "Somewhat-Bullish",
+          "ticker_score": 0.141249,
+          "ticker_label": "Neutral",
+          "relevance": 0.591324
+        },
+        {
+          "title": "Lam Research breaks ground on new Oregon R&D facility",
+          "summary": "Lam Research Corp. has broken ground on a new 120,000-square-foot R&D facility in Tualatin, Oregon, marking the first phase of a planned $3 billion investment in its global lab network. The facility, expected to open in 2028, will focus on advanced deposition and etch process development, materials science, and hardware validation, and is projected to create over 900 jobs during construction and more than 400 new Lam jobs upon completion. This expansion is Lam Research's largest investment in Oregon to date and is anticipated to significantly increase its economic contribution to the state.",
+          "source": "Investing.com",
+          "url": "https://www.investing.com/news/company-news/lam-research-breaks-ground-on-new-oregon-rd-facility-93CH-4877900",
+          "time": "20260826T213148",
+          "overall_sentiment": "Bullish",
+          "ticker_score": 0.542051,
+          "ticker_label": "Bullish",
+          "relevance": 0.640125
+        },
+        {
+          "title": "Jim Cramer Is Bullish on Micron (MU) as AI Fuels Memory Demand",
+          "summary": "Jim Cramer is bullish on Micron Technology (MU) due to the significant cash flow generated by its memory business, fueled by the AI boom. Cramer supports Micron's strategy of reinvesting heavily in manufacturing capacity and R&D, rather than prioritizing immediate shareholder returns through buybacks, believing it will secure the company's competitive position. While acknowledging the cyclical nature of memory and potential valuation risks, Cramer sees long-term growth potential in Micron's approach to capitalize on AI demand.",
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-bullish-micron-mu-201626167.html",
+          "time": "20260826T201857",
+          "overall_sentiment": "Neutral",
+          "ticker_score": -0.127631,
+          "ticker_label": "Neutral",
+          "relevance": 0.605108
+        }
+      ]
+    },
+    {
+      "symbol": "MA",
+      "article_count": 50,
+      "avg_sentiment": 0.10555538,
+      "positive_articles": 36,
+      "negative_articles": 14,
+      "neutral_articles": 0,
+      "signal": "BULLISH",
+      "top_articles": [
+        {
+          "title": "Bill Ackman Just Bought Visa, Mastercard, and S&P Global Stock. Each One Collects a Toll on Somebody Else's Sale.",
+          "summary": "Bill Ackman's Pershing Square fund made significant purchases of Visa, Mastercard, and S&P Global stock in the second quarter, totaling about $3.3 billion. These investments highlight a strategy focused on companies that collect fees on transactions without taking on the underlying risk, offering durability and consistent cash flow. Ackman's selections indicate a bet on the staying power of these \"toll-collecting\" businesses, which grow with overall economic activity rather than specific product cycles.",
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bill-ackman-just-bought-visa-005401077.html",
+          "time": "20260828T205400",
+          "overall_sentiment": "Bullish",
+          "ticker_score": 0.49522,
+          "ticker_label": "Bullish",
+          "relevance": 0.89967
+        },
+        {
+          "title": "42,433 Shares in PPL Corporation $PPL Acquired by OMERS ADMINISTRATION Corp",
+          "summary": "OMERS Administration Corp. recently acquired 42,433 shares of PPL Corporation (NYSE:PPL) valued at approximately $1.54 million. This move is part of broader institutional investor activity, with hedge funds and other institutional investors collectively owning 76.99% of PPL's stock. Despite some analyst price target adjustments, PPL maintains a \"Moderate Buy\" consensus rating and recently declared a quarterly dividend of $0.285.",
+          "source": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-42433-shares-in-ppl-corporation-ppl-acquired-by-omers-administration-corp-2026-08-27/",
+          "time": "20260827T133520",
+          "overall_sentiment": "Somewhat-Bullish",
+          "ticker_score": 0.106456,
+          "ticker_label": "Neutral",
+          "relevance": 0.534041
+        },
+        {
+          "title": "Mastercard (NYSE: MA) exec lines up $1.1M sale after $3.3M trade",
+          "summary": "Mastercard officer Craig Vosburg plans to sell 1,839 shares of common stock, valued at $1.1 million, through Morgan Stanley Smith Barney LLC under Rule 144. This follows a prior sale of 5,604 shares for $3.3 million on August 24, 2026, executed under a 10b5-1 plan. The planned sale involves restricted stock units granted on March 1, 2025.",
+          "source": "Stock Titan",
+          "url": "https://www.stocktitan.net/sec-filings/MA/144-mastercard-inc-sec-filing-2a11b73ac577.html",
+          "time": "20260825T210859",
+          "overall_sentiment": "Neutral",
+          "ticker_score": -0.082354,
+          "ticker_label": "Neutral",
+          "relevance": 1.0
+        },
+        {
+          "title": "Amex\u2019s low fraud rate turns on its closed system",
+          "summary": "American Express maintains the lowest fraud rate among major U.S. card networks, a success attributed to its unique closed network structure and advanced AI. This system allows Amex to access both cardholder and merchant data, providing a significant advantage in detecting anomalies and preventing fraud compared to rivals like Visa and Mastercard, which operate with numerous third-party issuers and acquirers. Amex's investment in AI and machine learning further enhances its fraud detection capabilities, streamlining investigations and identifying emerging fraud trends.",
+          "source": "Payments Dive",
+          "url": "https://www.paymentsdive.com/news/amexs-low-fraud-rate-turns-on-its-closed-system/828716/",
+          "time": "20260825T155415",
+          "overall_sentiment": "Neutral",
+          "ticker_score": -0.105413,
+          "ticker_label": "Neutral",
+          "relevance": 0.741344
+        },
+        {
+          "title": "OMERS ADMINISTRATION Corp Invests $11.64 Million in American Express Company $AXP",
+          "summary": "OMERS Administration Corp. has acquired 34,417 shares of American Express Company (NYSE:AXP) valued at approximately $11.64 million during the second quarter. American Express has a \"Moderate Buy\" consensus rating from analysts, with an average price target of $373.32. The company recently reported strong quarterly earnings of $4.53 EPS, exceeding expectations, and declared a quarterly dividend of $0.95 per share.",
+          "source": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-omers-administration-corp-invests-1164-million-in-american-express-company-axp-2026-08-25/",
+          "time": "20260825T103716",
+          "overall_sentiment": "Somewhat-Bullish",
+          "ticker_score": 0.116297,
+          "ticker_label": "Neutral",
+          "relevance": 0.617733
+        }
+      ]
+    },
+    {
+      "symbol": "TSLA",
+      "article_count": 50,
+      "avg_sentiment": 0.10441382000000003,
+      "positive_articles": 39,
+      "negative_articles": 11,
+      "neutral_articles": 0,
+      "signal": "BULLISH",
+      "top_articles": [
+        {
+          "title": "JPMorgan Chase & Co. (JPM) Could Soon Be Worth $1 Trillion. One Analyst Says $2 Trillion Is Next",
+          "summary": "Wells Fargo projects JPMorgan Chase & Co. (JPM) could reach a $1 trillion market valuation, potentially growing to $2 trillion within seven to eight years due to its \"best-in-class ability to invest for superior growth\" and recent record profits. The bank's stock has risen 21% in the past three months, with its current market value at $965 billion. Despite this, JPMorgan has underperformed major indexes this year, and some analysts caution about the sustainability of its growth drivers, including a \"Jamie premium\" and volatility-driven trading spikes.",
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-chase-co-jpm-could-165404139.html",
+          "time": "20260827T114755",
+          "overall_sentiment": "Somewhat-Bullish",
+          "ticker_score": 0.115717,
+          "ticker_label": "Neutral",
+          "relevance": 0.605051
+        },
+        {
+          "title": "PG&E expands V2X program for California EV drivers",
+          "summary": "Pacific Gas and Electric Company (PG&E) is expanding its Vehicle-to-Everything (V2X) program in California, partnering with Bidirectional Energy and PowerFlex to offer new vehicles and charger options. The program provides financial incentives for customers to install bidirectional EV charging technology, allowing their electric vehicles to function as mobile batteries for home backup and as a grid asset. This expansion includes more EV models from manufacturers like Kia, Volvo, Polestar, and Nissan, alongside existing Ford, Tesla, Chevrolet, GMC, and Cadillac models, and offers additional incentives through California Energy Commission grant funding.",
+          "source": "Daily Energy Insider",
+          "url": "https://dailyenergyinsider.com/news/53544-pge-expands-v2x-program-for-california-ev-drivers/",
+          "time": "20260826T211739",
+          "overall_sentiment": "Somewhat-Bullish",
+          "ticker_score": 0.308721,
+          "ticker_label": "Somewhat-Bullish",
+          "relevance": 0.64671
+        },
+        {
+          "title": "No Tesla recall in Europe at present, Dutch regulator says",
+          "summary": "The Dutch vehicle regulator RDW has stated there is currently no recall of Tesla cars in Europe regarding concerns that doors may be difficult to open in an emergency. This follows a significant recall in China for similar issues. RDW, the key regulator for Tesla in Europe, is monitoring the situation and noted that improving emergency door access is a topic of discussion in international vehicle-regulation forums.",
+          "source": "Reuters",
+          "url": "https://www.reuters.com/world/china/no-tesla-recall-europe-present-dutch-regulator-says-2026-08-26/",
+          "time": "20260826T131931",
+          "overall_sentiment": "Neutral",
+          "ticker_score": 0.019585,
+          "ticker_label": "Neutral",
+          "relevance": 1.0
+        },
+        {
+          "title": "Elon Musk Teases Tesla Vehicle 'Way Cooler Than a Minivan'\u2014Is the Robovan Finally Coming?",
+          "summary": "Tesla CEO Elon Musk hinted at a new high-capacity vehicle, stating \"something way cooler than a minivan\" might be in development, following a user's request for a Tesla minivan. This speculation comes after he highlighted the Cybertruck's family-friendly seating and builds on Tesla's past ambitions for high passenger-density urban transport, such as the 20-seat Robovan and two-seat Cybercab. While the exact nature of the new vehicle remains unknown, it suggests Tesla is exploring diverse transport solutions beyond traditional family vehicles.",
+          "source": "Benzinga",
+          "url": "https://www.benzinga.com/markets/tech/26/08/61428435/elon-musk-teases-tesla-vehicle-way-cooler-than-a-minivan-is-the-robovan-finally-coming",
+          "time": "20260826T110901",
+          "overall_sentiment": "Neutral",
+          "ticker_score": 0.107642,
+          "ticker_label": "Neutral",
+          "relevance": 1.0
+        },
+        {
+          "title": "Jim Farley shares how a Ford quality disaster prompted plan for change",
+          "summary": "Ford CEO Jim Farley revealed that the disastrous 2023 launch of the F-Series Super Duty, which cost the company $1 billion due to quality control issues, served as a catalyst for a major cultural overhaul. Ford has since replaced two-thirds of its leadership in key industrial and engineering roles, focusing on deep problem-solving, technical expertise, and empowering workers to prioritize quality. While recent improvements have led to a top J.D. Power ranking, Ford still faces challenges with its high recall rate and the long-term sustainability of these quality changes.",
+          "source": "Detroit Free Press",
+          "url": "https://www.freep.com/story/money/cars/ford/2026/08/26/ford-ceos-plan-to-beat-toyota-was-prompted-by-a-quality-disaster/91374059007/",
+          "time": "20260826T110258",
+          "overall_sentiment": "Neutral",
+          "ticker_score": -0.055447,
+          "ticker_label": "Neutral",
+          "relevance": 0.58639
+        }
+      ]
+    },
+    {
+      "symbol": "MSFT",
+      "article_count": 50,
+      "avg_sentiment": 0.09775130000000003,
+      "positive_articles": 36,
+      "negative_articles": 14,
+      "neutral_articles": 0,
+      "signal": "NEUTRAL",
+      "top_articles": [
+        {
+          "title": "Microsoft Security Chief Taesoo Kim: \"AI Advancement Shifts the Game in Favor of Defense Over Cyberattacks\"",
+          "summary": "Microsoft Corporate Vice President of Security, Taesoo Kim, believes that advancements in AI will shift the cybersecurity advantage from attackers to defenders. He highlighted Microsoft's AI-powered MDASH system, which detected 66% of Windows vulnerabilities last year within four months, and discussed the need for broader support for South Korea's world-class security talent. Kim also predicted a future where generalists proficient in AI, development, and security will become crucial as AI automates junior roles.",
+          "source": "BigGo Finance",
+          "url": "https://finance.biggo.com/news/271d6481-51a1-481b-bbde-4d28204816c8",
+          "time": "20260830T102100",
+          "overall_sentiment": "Bullish",
+          "ticker_score": 0.480855,
+          "ticker_label": "Bullish",
+          "relevance": 1.0
+        },
+        {
+          "title": "Microsoft: The Rerating Is Probably Over For Now (Rating Downgrade) (NASDAQ:MSFT)",
+          "summary": "Microsoft's stock rallied post-Q4 results due to stabilized CapEx guidance for 2026, accelerated Copilot adoption, and re-accelerated Azure growth, easing previous concerns. However, the stock trades at a premium, and structural margin pressure from a sales mix shift to lower-margin Azure and heavy AI infrastructure investment suggests the rerating phase is likely over. The article implies a downgrade is warranted as sustainable margin drivers are challenged.",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4941334-microsoft-the-rerating-is-probably-over-for-now-rating-downgrade",
+          "time": "20260829T113400",
+          "overall_sentiment": "Somewhat-Bearish",
+          "ticker_score": -0.290782,
+          "ticker_label": "Somewhat-Bearish",
+          "relevance": 1.0
+        },
+        {
+          "title": "Microsoft accused of harvesting K-12 students\u2019 personal, behavioral data",
+          "summary": "A new class action lawsuit alleges Microsoft illegally harvests personal and behavioral data from over a million K-12 students in Washington State. The complaint, filed by four school children through their guardian, claims Microsoft's products collect education records, browsing history, app usage, and \"telemetric\" data without parental consent, creating persistent digital profiles of students. The lawsuit argues that students are \"captive participants\" in this data harvesting and seeks to represent all Washington K-12 students who have used Microsoft products in school, demanding a jury trial.",
+          "source": "Top Class Actions",
+          "url": "https://topclassactions.com/lawsuit-settlements/lawsuit-news/microsoft-accused-of-harvesting-k-12-students-personal-behavioral-data/",
+          "time": "20260829T113400",
+          "overall_sentiment": "Bearish",
+          "ticker_score": -0.404213,
+          "ticker_label": "Bearish",
+          "relevance": 1.0
+        },
+        {
+          "title": "How Microsoft Corporation (MSFT) Affects Rotational Strategy Timing",
+          "summary": "This article analyzes how Microsoft Corporation (MSFT) impacts rotational strategy timing, highlighting positive near-term sentiment that may be shifting and a breakout underway. It provides AI-generated trading strategies with specific entry, target, and stop-loss levels for position trading, momentum breakout, and risk hedging. The analysis also includes multi-timeframe signal analysis, showing varying signal strengths and support/resistance levels across different horizons.",
+          "source": "Stock Traders Daily",
+          "url": "https://news.stocktradersdaily.com/news_release/134/How_Microsoft_Corporation_MSFT_Affects_Rotational_Strategy_Timing_082826115001_1787975401.html",
+          "time": "20260829T113400",
+          "overall_sentiment": "Somewhat-Bullish",
+          "ticker_score": 0.344371,
+          "ticker_label": "Somewhat-Bullish",
+          "relevance": 1.0
+        },
+        {
+          "title": "Why Is Microsoft (MSFT) Up 12% Since Last Earnings Report?",
+          "summary": "Microsoft (MSFT) shares have risen 12% since its last earnings report, outperforming the S&P 500, driven by strong Q4 fiscal 2026 results. The company beat revenue and earnings estimates, primarily due to robust growth in its cloud services and AI initiatives, with Microsoft Cloud revenues up 27% year-over-year. Despite a dip in its More Personal Computing segment, the company's outlook for Q1 fiscal 2027 projects continued revenue growth, supported by ongoing AI and cloud infrastructure investments.",
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-microsoft-msft-12-since-153027787.html",
+          "time": "20260829T113400",
+          "overall_sentiment": "Somewhat-Bullish",
+          "ticker_score": 0.415298,
+          "ticker_label": "Bullish",
+          "relevance": 1.0
+        }
+      ]
+    },
+    {
+      "symbol": "BRK-B",
+      "article_count": 50,
+      "avg_sentiment": 0.02782458,
+      "positive_articles": 50,
+      "negative_articles": 0,
+      "neutral_articles": 0,
+      "signal": "NEUTRAL",
+      "top_articles": [
+        {
+          "title": "Berkshire Hathaway stock holds firm as Greg Abel ramps up equity buying",
+          "summary": "Berkshire Hathaway's Class B shares are trading near $500, with new disclosures revealing that Vice Chairman Greg Abel deployed $23.5 billion into nine U.S. stocks in Q2 2026, primarily in Alphabet. This marks Berkshire's return to being a net buyer of equities, reversing a trend of accumulating cash. Analysts continue to see upside for Berkshire Hathaway stock, reinforced by its role as a core holding for long-term investors and its robust insurance and operating businesses.",
+          "source": "Ad-hoc-news.de",
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/berkshire-hathaway-stock-holds-firm-as-greg-abel-ramps-up-equity-buying/69994756",
+          "time": "20260824T171507",
+          "overall_sentiment": "Somewhat-Bullish",
+          "ticker_score": 0.02083,
+          "ticker_label": "Neutral",
+          "relevance": 0.337355
+        },
+        {
+          "title": "Berkshire Shares Fall 1.6% in Week, Draw Closer to Abel\u2019s Share Buyback Level",
+          "summary": "Berkshire Hathaway's Class B shares fell 1.63% over the past week, closing at $495.82, bringing them within 1.83% of the company's average first-quarter buyback price of $486.92. This move is significant as CEO Greg Abel has increased the pace of share repurchases, signaling management's view of the stock as appealing at these levels. Despite robust operating profits, analysts remain divided on valuation, with price targets ranging from $481 to $604.",
+          "source": "TechStock\u00b2",
+          "url": "https://ts2.tech/en/berkshire-stocks-1-6-weekly-slide-narrows-gap-to-abels-buyback-price/",
+          "time": "20260823T103543",
+          "overall_sentiment": "Neutral",
+          "ticker_score": 0.026921,
+          "ticker_label": "Neutral",
+          "relevance": 0.308205
+        },
+        {
+          "title": "Berkshire\u2019s $24 Billion Stock Purchases Contrast With Buffett\u2019s Market Caution",
+          "summary": "Berkshire Hathaway invested approximately $24.3 billion in equities and share repurchases in the second quarter, ending a 14-quarter streak of net equity sales, despite Warren Buffett's recent cautions about market speculation. The company significantly increased its stake in Alphabet Inc., making it Berkshire's third-largest holding, while maintaining substantial cash reserves. Operating earnings also saw a 16% increase, though insurance performance weakened.",
+          "source": "TechStock\u00b2",
+          "url": "https://ts2.tech/en/buffetts-stock-market-warning-collides-with-berkshires-24-billion-buying-spree/",
+          "time": "20260822T154207",
+          "overall_sentiment": "Somewhat-Bullish",
+          "ticker_score": 0.011341,
+          "ticker_label": "Neutral",
+          "relevance": 0.304306
+        },
+        {
+          "title": "Berkshire Hathaway stock holds above $743,000 as Buffett reshapes the portfolio",
+          "summary": "Berkshire Hathaway's Class A stock is trading above $743,000, reflecting its status as a high-priced but widely followed investment vehicle. Recent portfolio adjustments include reducing stakes in Bank of America while benefiting from energy holdings like Occidental Petroleum, aligning with Buffett's capital allocation strategy. The article highlights Berkshire's defensive qualities amidst broader debt concerns and elevated interest rates, positioning it as a hedge against macroeconomic risks.",
+          "source": "Ad-hoc-news.de",
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/berkshire-hathaway-stock-holds-above-743-000-as-buffett-reshapes-the/69986296",
+          "time": "20260822T141110",
+          "overall_sentiment": "Neutral",
+          "ticker_score": 0.010843,
+          "ticker_label": "Neutral",
+          "relevance": 0.300959
+        },
+        {
+          "title": "What Is Berkshire Hathaway (BRK.B) Signaling With Its Biggest Buyback Since 2021?",
+          "summary": "Berkshire Hathaway reported significant share buybacks in Q2 2026, the largest since 2021, and made a sizable new equity investment in Alphabet. This shift in capital allocation under CEO Greg Abel signals a more active deployment of its cash reserves, moving towards a more active owner mindset. While supporting the bull case for investors seeing good value, it also introduces concerns about execution risk and increased sensitivity to market conditions.",
+          "source": "Sahm",
+          "url": "https://www.sahmcapital.com/news/content/what-is-berkshire-hathaway-brkb-signaling-with-its-biggest-buyback-since-2021-2026-08-10",
+          "time": "20260811T214613",
+          "overall_sentiment": "Somewhat-Bullish",
+          "ticker_score": 0.047117,
+          "ticker_label": "Neutral",
+          "relevance": 0.34779
+        }
+      ]
+    }
+  ]
+}
