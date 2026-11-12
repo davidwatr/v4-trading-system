@@ -151,6 +151,10 @@ def main():
         pv = float(a.portfolio_value)
         print(f"[ALPACA] equity=${pv:,.2f} cash=${float(a.cash):,.2f} "
               f"BP=${float(a.buying_power):,.2f} positions={len(c.get_all_positions())}")
+    except ImportError as e:
+        print(f"[ALPACA] alpaca-py missing in this interpreter — run with the hermes "
+              f"venv python (system python lacks the package): {e}")
+        pv = None
     except Exception as e:
         print(f"[ALPACA] query failed: {e}")
         pv = None
@@ -161,8 +165,10 @@ def main():
         dd = pv / peak - 1
         print(f"[RISK] peak=${peak:,.2f} drawdown={dd:.2%} "
               f"({'OK' if dd > -0.15 else 'BREACH vs 15% cap'})")
-    else:
+    elif peak is None:
         print("[RISK] peak file unreadable — drawdown unknown")
+    else:
+        print("[RISK] alpaca equity unavailable — drawdown not computed (peak readable)")
     print("[RISK] sharpe / win-rate / avg-trade-duration: NOT COMPUTED "
           "by pipeline (executor logs PV/cash/positions only) — metric gap")
     print("[RISK] NOTE: breaker LIVE — executor loads/ratchets v4_peak_portfolio.json "
@@ -218,7 +224,7 @@ def main():
     print(" 2. ROTATE paper keys (public since pre-purge exposure): Alpaca dashboard -> "
           "new keys -> GH secrets APCA_API_KEY_ID/APCA_API_SECRET_KEY + local .env")
     print(" 3. Verify local dispatcher cron fired (hermes job e2f4f1832109, weekdays "
-          "16:25 Israel = 14:25Z) — GH schedule is backup only; check 'hermes cron list --json'")
+          "16:25 Israel = 14:25Z) — GH schedule is backup only; check 'hermes cron list'")
     print(" STANDING: weekend guard LIVE (no new buys Sat/Sun), model competition archived "
           "(dead), DST: shift dispatcher cron 16:25<->17:25 local on Israel clock changes")
 
