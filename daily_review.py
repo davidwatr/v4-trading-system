@@ -187,6 +187,7 @@ def main():
     print("[DATA] missing-bar / stale-quote / feature-drift checks: absent from pipeline")
 
     # ── 4. Execution quality ────────────────────────────────
+    open_orders = []  # graceful degrade when alpaca-py missing in this interpreter
     try:
         from alpaca.trading.requests import GetOrdersRequest
         open_orders = c.get_orders(GetOrdersRequest(status="open"))
